@@ -40,6 +40,6 @@ Phase 1 - HUGO
 - [x] Menu - Link to unless current
 - [x] Add CSS fingerprinting (Hugo Pipes)
 - [x] Create a single-page hugo theme
-- [ ] Test cloning with git submodule
-- [ ] Dynamically assemble boxes as list page
+- [x] Test cloning with git submodule
 - [ ] Style link sections using FlexBox
+- [ ] Dynamically assemble boxes as list page
