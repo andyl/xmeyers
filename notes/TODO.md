@@ -5,7 +5,7 @@
 Phase 0 - HTML
 
 Phase 1 - HUGO
-- [ ] Get it working with Hugo
+- [ ] Menu - Link to unless current
 - [ ] Add Blog Posts
 - [ ] Add RSS Feed
 
@@ -26,4 +26,11 @@ Phase 0 - HTML
 - [x] Simple Hardcoded Page - HTML
 - [x] On GitHub Pages at https://andyl.github.io/xmeyers
 
+## 2021 Jan 29 Fri
+
+Phase 1 - HUGO 
+
+- [x] Get it working with Hugo
+- [x] Support external link (target="\_blank")
+- [x] Basic formatting
 
