@@ -1,3 +1,4 @@
+baseURL = "https://andyl.github.io/xmeyers/"
 languageCode = "en-us"
 title = "Xmeyers"
 publishDir = "docs"
