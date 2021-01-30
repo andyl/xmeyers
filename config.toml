@@ -2,6 +2,7 @@ baseURL = "https://andyl.github.io/xmeyers/"
 languageCode = "en-us"
 title = "Xmeyers"
 publishDir = "docs"
+theme = "hugo_boxlist"
 
 [markup.goldmark.renderer]
 unsafe= true

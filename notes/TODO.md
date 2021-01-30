@@ -5,13 +5,12 @@
 Phase 0 - HTML
 
 Phase 1 - HUGO
-- [ ] Menu - Link to unless current
-- [ ] Add Blog Posts
-- [ ] Add RSS Feed
 
 Phase 2 - HUGO / Tailwind
 - [ ] Better Formatting
 - [ ] Responsive Layout
+- [ ] Add Blog Posts (twitter data feed)
+- [ ] Add RSS Feed
 - [ ] Add Twitter Feeds as Blog Entries (Cron Job)
 
 Phase 3 - HUGO / Tailwind / Alpine
@@ -34,3 +33,13 @@ Phase 1 - HUGO
 - [x] Support external link (target="\_blank")
 - [x] Basic formatting
 
+## 2021 Jan 30 Sat
+
+Phase 1 - HUGO 
+
+- [x] Menu - Link to unless current
+- [x] Add CSS fingerprinting (Hugo Pipes)
+- [x] Create a single-page hugo theme
+- [ ] Test cloning with git submodule
+- [ ] Dynamically assemble boxes as list page
+- [ ] Style link sections using FlexBox
