@@ -1,0 +1,6 @@
+languageCode = "en-us"
+title = "Xmeyers"
+publishDir = "docs"
+
+[markup.goldmark.renderer]
+unsafe= true
