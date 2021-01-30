@@ -5,6 +5,7 @@
 Phase 0 - HTML
 
 Phase 1 - HUGO
+- [ ] Get it working with Hugo
 - [ ] Add Blog Posts
 - [ ] Add RSS Feed
 
@@ -24,3 +25,5 @@ Phase 0 - HTML
 - [x] Initial Creation
 - [x] Simple Hardcoded Page - HTML
 - [x] On GitHub Pages at https://andyl.github.io/xmeyers
+
+
