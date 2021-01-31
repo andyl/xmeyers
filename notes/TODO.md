@@ -6,14 +6,13 @@ Phase 0 - HTML
 
 Phase 1 - HUGO
 
-Phase 2 - HUGO / Tailwind
-- [ ] Better Formatting
-- [ ] Responsive Layout
+Phase 2 - HUGO / DataFeed
 - [ ] Add Blog Posts (twitter data feed)
-- [ ] Add RSS Feed
-- [ ] Add Twitter Feeds as Blog Entries (Cron Job)
+- [ ] Generate RSS File
+- [ ] Add Twitter Feeds Cron Job
 
 Phase 3 - HUGO / Tailwind / Alpine
+- [ ] Install Tailwind and Alpine
 - [ ] Live cam in modal
 - [ ] Add page tracker 
 
@@ -41,5 +40,13 @@ Phase 1 - HUGO
 - [x] Add CSS fingerprinting (Hugo Pipes)
 - [x] Create a single-page hugo theme
 - [x] Test cloning with git submodule
-- [ ] Style link sections using FlexBox
-- [ ] Dynamically assemble boxes as list page
+- [x] Style link sections using CSS Grid
+
+## 2021 Jan 31 Sun
+
+Phase 1 - HUGO 
+
+- [x] Responsive Layout
+- [x] Create gridbox section
+- [x] Create gridbox/index.html
+- [x] Dynamically assemble boxes as list page
