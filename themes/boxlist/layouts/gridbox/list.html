@@ -1,0 +1,14 @@
+{{ define "main" -}}
+
+<div class="grid-container">
+{{ range .Pages.ByWeight }}
+
+<div class="grid-item">
+  <div class="item-title">{{.Title}}</div>
+  <div class="item-content">{{.Content}}</div>
+</div>
+ 
+{{ end }}
+</div>
+
+{{- end }}
