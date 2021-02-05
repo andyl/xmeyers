@@ -6,14 +6,12 @@ Phase 0 - HTML
 
 Phase 1 - HUGO
 
-Phase 2 - HUGO / DataFeed
+Phase 2 - HUGO / Tailwind 
+
+Phase 3 - HUGO / DataFeed
 - [ ] Add Blog Posts (twitter data feed)
 - [ ] Generate RSS File
 - [ ] Add Twitter Feeds Cron Job
-
-Phase 3 - HUGO / Tailwind / Alpine
-- [ ] Install Tailwind and Alpine
-- [ ] Live cam in modal
 - [ ] Add page tracker 
 
 ## 2021 Jan 25 Mon
@@ -50,3 +48,12 @@ Phase 1 - HUGO
 - [x] Create gridbox section
 - [x] Create gridbox/index.html
 - [x] Dynamically assemble boxes as list page
+
+## 2021 Feb 05 Fri
+
+Phase 2 - HUGO / Tailwind
+
+https://praveenjuge.com/blog/install-tailwind-on-hugo/
+
+- [ ] Install Tailwind 
+- [ ] Add favicon and logo image
