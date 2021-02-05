@@ -1,7 +1,15 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    {{ $style := resources.Get "css/style.css" | fingerprint }}
-    <link rel="stylesheet" type="text/css" href="{{ $style.Permalink }}" />
+
+    {{ $styles := resources.Get "css/main.css" }} 
+    {{ $styles = $styles | resources.PostCSS (dict "inlineImports" true) }} 
+    
+    {{ if hugo.IsProduction }} 
+      {{ $styles = $styles | minify }} 
+    {{ end }}
+
+    <link href="{{ $styles.Permalink }}" rel="stylesheet" />
+
     <title>{{ .Site.Title }}</title>
   </head>
