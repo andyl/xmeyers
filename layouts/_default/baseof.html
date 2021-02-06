@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ .Site.Title }}</title>
+
+    {{ $styles := resources.Get "css/main.css" }} 
+    {{ $styles = $styles | resources.PostCSS (dict "inlineImports" true) | minify | fingerprint}} 
+
+    <link href="{{ $styles.Permalink }}" rel="stylesheet" />
+    <link rel="shortcut icon" href="/xmeyers/img/favicon.ico" /> 
+  </head>
+
+  <body>
+    <div class="md:flex md:items-center md:justify-between p-3 bg-gray-100">
+      <div class="flex-1 min-w-0">
+        <div class="text-2xl leading-7 text-gray-900 sm:text-3xl sm:truncate"> 
+          <img class="inline align-middle" style="padding-bottom: 3px;" src="/xmeyers/img/mountain-15-32.png"/> Xmeyers
+        </div>
+      </div>
+      <div class="mt-4 flex md:mt-0 md:ml-4">
+        <a href="/xmeyers" type="button" class="btn-base">
+          Home
+        </a>
+        <a href="/xmeyers/ghome" type="button" class="btn-pp">
+          Grid
+        </a>
+      </div>
+    </div>
+    {{ block "main" . }}{{ end }}
+  </body>
+</html>
