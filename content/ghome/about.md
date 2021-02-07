@@ -9,5 +9,6 @@ weight: 99
 
 Weather and Road conditions for Meyers, CA
 
-<a target="_blank" href="https://github.com/andyl/xmeyers">Website Source</a> | 
+<a target="_blank" href="https://github.com/andyl/xmeyers">Website Source</a> 
+
 <a target="_blank" href="https://github.com/andyl/xmeyers/issues">Feedback & Requests</a> 
