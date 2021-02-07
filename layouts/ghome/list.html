@@ -1,0 +1,29 @@
+{{ define "main" -}}
+
+<style>
+  a { color: blue; }
+  a:hover { text-decoration: underline; }
+</style>
+
+<div class="grid lg:grid-cols-3 sm:grid-cols-2 gap-4 p-4">
+
+  {{ range .Pages.ByWeight }}
+
+  <div class="relative rounded-lg border border-gray-300 shadow-sm space-x-3"> 
+
+      <div class="border-gray-200 px-4 bg-blue-100 rounded-t-lg">
+        {{.Title}}
+      </div>
+
+      <div class="text-sm text-gray-500 my-2">
+        {{.Content}}
+      </div>
+
+  </div>
+
+  {{ end }}
+
+</div>
+
+{{- end }}
+

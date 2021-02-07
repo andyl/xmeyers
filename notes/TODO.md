@@ -7,6 +7,8 @@ Phase 0 - HTML
 Phase 1 - HUGO
 
 Phase 2 - HUGO / Tailwind 
+- [ ] New page with Inline Webcams
+- [ ] Menu with HomePage and CamPage
 
 Phase 3 - HUGO / DataFeed
 - [ ] Add Blog Posts (twitter data feed)
@@ -55,5 +57,6 @@ Phase 2 - HUGO / Tailwind
 
 https://praveenjuge.com/blog/install-tailwind-on-hugo/
 
-- [ ] Install Tailwind 
-- [ ] Add favicon and logo image
+- [x] Install Tailwind 
+- [x] Add favicon and logo image
+- [x] Style with Tailwind
