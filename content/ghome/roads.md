@@ -2,7 +2,7 @@
 title: "Road Conditions"
 date: 2021-01-30T19:37:57-08:00
 draft: false
-weight: 4
+weight: 5
 
 ---
 
@@ -20,22 +20,22 @@ input:hover {
 
 <form action="https://roads.dot.ca.gov/roadscell.php" method="post" target="_blank">
 <input name="roadnumber" type="hidden" value="89">
-<input type="submit" value="Highway 89 (Truckee <> SLT <> M'ville)" name="submit">
+<input type="submit" value="Highway 89 (Truckee <> SLT <> Monitor Pass)" name="submit">
 </form>
 
 <form action="https://roads.dot.ca.gov/roadscell.php" method="post" target="_blank">
 <input name="roadnumber" type="hidden" value="50">
-<input type="submit" value="Highway 50 (Placerville <> SLT)" name="submit">
+<input type="submit" value="Highway 50 (Placerville <> SLT <> Carson City)" name="submit">
 </form>
 
 <form action="https://roads.dot.ca.gov/roadscell.php" method="post" target="_blank">
 <input name="roadnumber" type="hidden" value="88">
-<input type="submit" value="Highway 88 (Kirkwood <> Gardnerville)" name="submit">
+<input type="submit" value="Highway 88 (Kirkwood <> Woodfords <> Gardnerville)" name="submit">
 </form>
 
 <form action="https://roads.dot.ca.gov/roadscell.php" method="post" target="_blank">
 <input name="roadnumber" type="hidden" value="4">
-<input type="submit" value="Highway 4 (Bear Valley / Ebbetts Pass)" name="submit">
+<input type="submit" value="Highway 4 (M'ville <> Ebbetts Pass <> Bear Valley)" name="submit">
 </form>
 
 <form action="https://roads.dot.ca.gov/roadscell.php" method="post" target="_blank">

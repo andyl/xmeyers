@@ -1,6 +1,6 @@
 # xmeyers
 
-Weather and road conditions for Meyers, CA
+Weather, fire and road conditions for Meyers, CA
 
 Static HTML - public website at [andyl.github.io/xmeyers](https://andyl.github.io/xmeyers).
 
@@ -12,5 +12,12 @@ Cloning the repo:
 
 ```
 $ git clone https://github.com/andyl/xmeyers.git 
+```
+
+## Building
+
+```
+$ bin/build
+$ bin/serve
 ```
 
