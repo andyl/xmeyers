@@ -14,10 +14,18 @@ Cloning the repo:
 $ git clone https://github.com/andyl/xmeyers.git 
 ```
 
+## Editing
+
+Content files are in `content/ghome/*.md`.
+
 ## Building
 
 ```
-$ bin/build
 $ bin/serve
+$ bin/build
 ```
+
+## Deploying
+
+Build > Commit > Push
 
