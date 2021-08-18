@@ -11,6 +11,7 @@ weight: 4
 - <a target="_blank" href="https://caltopo.com/map.html#ll=38.81403,-120.01808&z=11&b=oo&a=modis_g">CalTopo</a>
 - <a target="_blank" href="https://eldoradocounty.maps.arcgis.com/apps/webappviewer/index.html?id=c995bf3816964e948d7d831d3ba938ff">Evacuation Orders</a>
 - <a target="_blank" href="https://www.youtube.com/channel/UCGjtp7iaeVmoVx-K7EGiYKA">Holt Hanley Weather</a>
+- <a target="_blank" href="https://weather.cod.edu/satrad/?parms=subregional-SanFran-natcolorfire-200-0-100-2&checked=map&colorbar=undefined">DuPage</a>
 - Comms: 
  <a target="_blank" href="https://m.broadcastify.com/listen/ctid/191">ElDorado</a> | 
  <a target="_blank" href="https://m.broadcastify.com/listen/ctid/184">Alpine</a> 
