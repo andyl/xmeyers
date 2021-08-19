@@ -17,22 +17,22 @@
     </item>
     
     <item>
-      <title>Maps</title>
-      <link>https://andyl.github.io/xmeyers/ghome/maps/</link>
+      <title>Traffic</title>
+      <link>https://andyl.github.io/xmeyers/ghome/traffic/</link>
       <pubDate>Sat, 30 Jan 2021 19:37:57 -0800</pubDate>
       
-      <guid>https://andyl.github.io/xmeyers/ghome/maps/</guid>
+      <guid>https://andyl.github.io/xmeyers/ghome/traffic/</guid>
       <description>Google Traffic Map
 Caltrans QuickMap</description>
     </item>
     
     <item>
-      <title>Webcams</title>
-      <link>https://andyl.github.io/xmeyers/ghome/webcams/</link>
+      <title>RoadCams</title>
+      <link>https://andyl.github.io/xmeyers/ghome/roadcams/</link>
       <pubDate>Sat, 30 Jan 2021 19:37:57 -0800</pubDate>
       
-      <guid>https://andyl.github.io/xmeyers/ghome/webcams/</guid>
-      <description>  Twin Bridges    Sierra At Tahoe    Echo Summit    Meyers Roundabout    Hwy 50/89 Junction    Sierra at Tahoe Webcams    </description>
+      <guid>https://andyl.github.io/xmeyers/ghome/roadcams/</guid>
+      <description>  Twin Bridges    Sierra At Tahoe    Echo Summit    Meyers Roundabout    Hwy 50/89 Junction    </description>
     </item>
     
     <item>
@@ -45,23 +45,25 @@ Caltrans QuickMap</description>
     </item>
     
     <item>
-      <title>Road Conditions</title>
-      <link>https://andyl.github.io/xmeyers/ghome/roads/</link>
+      <title>Closures</title>
+      <link>https://andyl.github.io/xmeyers/ghome/closures/</link>
       <pubDate>Sat, 30 Jan 2021 19:37:57 -0800</pubDate>
       
-      <guid>https://andyl.github.io/xmeyers/ghome/roads/</guid>
-      <description> input { background-color: white; color: blue; cursor: pointer; } input:hover { text-decoration: underline; }  SLT  Monitor Pass)&#34; name=&#34;submit&#34;  SLT  Carson City)&#34; name=&#34;submit&#34;  Woodfords  Gardnerville)&#34; name=&#34;submit&#34;  Ebbetts Pass  Bear Valley)&#34; name=&#34;submit&#34;     </description>
+      <guid>https://andyl.github.io/xmeyers/ghome/closures/</guid>
+      <description> input { background-color: white; color: blue; cursor: pointer; } input:hover { text-decoration: underline; }  SLT  Monitor Pass)&#34; name=&#34;submit&#34;  SLT  Carson City)&#34; name=&#34;submit&#34;  Woodfords  Minden)&#34; name=&#34;submit&#34;  Ebbetts Pass  Bear Valley)&#34; name=&#34;submit&#34;     </description>
     </item>
     
     <item>
-      <title>About</title>
-      <link>https://andyl.github.io/xmeyers/ghome/about/</link>
+      <title>Misc</title>
+      <link>https://andyl.github.io/xmeyers/ghome/misc/</link>
       <pubDate>Sat, 30 Jan 2021 19:37:57 -0800</pubDate>
       
-      <guid>https://andyl.github.io/xmeyers/ghome/about/</guid>
+      <guid>https://andyl.github.io/xmeyers/ghome/misc/</guid>
       <description>Weather, Fire and Road conditions for Meyers, CA
 Website Source
-Feedback &amp;amp; Requests</description>
+Feedback &amp;amp; Requests
+Webcams
+Sierra at Tahoe Webcams  </description>
     </item>
     
   </channel>

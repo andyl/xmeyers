@@ -1,5 +1,5 @@
 ---
-title: "Road Conditions"
+title: "Closures"
 date: 2021-01-30T19:37:57-08:00
 draft: false
 weight: 5
@@ -30,7 +30,7 @@ input:hover {
 
 <form action="https://roads.dot.ca.gov/roadscell.php" method="post" target="_blank">
 <input name="roadnumber" type="hidden" value="88">
-<input type="submit" value="Highway 88 (Kirkwood <> Woodfords <> Gardnerville)" name="submit">
+<input type="submit" value="Highway 88 (Kirkwood <> Woodfords <> Minden)" name="submit">
 </form>
 
 <form action="https://roads.dot.ca.gov/roadscell.php" method="post" target="_blank">
