@@ -28,6 +28,8 @@ weight: 99
 
 <a target="_blank" href="/xmeyers/maps/SilverforkRoad.pdf">SilverforkRoad</a> 
 
+<a target="_blank" href="/xmeyers/maps/VikingsholmTrail.pdf">VikingsholmTrail</a> 
+
 <a target="_blank" href="/xmeyers/maps/WashoeMeadows.pdf">WashoeMeadows</a> 
 
 <a target="_blank" href="/xmeyers/maps/WillowCreek.pdf">WillowCreek</a> 
