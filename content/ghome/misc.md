@@ -12,7 +12,7 @@ Weather, Fire and Road conditions for Meyers, CA
 
 <a target="_blank" href="https://github.com/andyl/xmeyers/issues">Feedback & Requests</a> 
 
-Misc
+Other
 
 <a target="_blank" href="/xmeyers/maps/">Sierra Maps</a>
 <a target="_blank" href="https://www.sierraattahoe.com/live-cams/">
