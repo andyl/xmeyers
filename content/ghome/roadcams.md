@@ -19,6 +19,9 @@ weight: 3
     Meyers Roundabout
   </a>
 - <a target="_blank" href="https://cwwp2.dot.ca.gov/vm/loc/d3/hwy50athwy89.htm">
-    Hwy 50/89 Junction
+    Hwy 50 at Hwy 89
+  </a>
+- <a target="_blank" href="https://cwwp2.dot.ca.gov/vm/loc/d3/hwy50atskirun.htm">
+    Hwy 50 at SkiRun
   </a>
 
