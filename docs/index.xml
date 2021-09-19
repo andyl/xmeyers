@@ -54,6 +54,28 @@ Caltrans QuickMap</description>
     </item>
     
     <item>
+      <title>Maps</title>
+      <link>https://andyl.github.io/xmeyers/maps/maps/</link>
+      <pubDate>Sat, 30 Jan 2021 19:37:57 -0800</pubDate>
+      
+      <guid>https://andyl.github.io/xmeyers/maps/maps/</guid>
+      <description>CraterLake
+FlagpolePeak
+Forestdale
+HawkinsPeak
+LeavittLake
+LutherSpires
+MeadowLake
+Osgood
+PickettPeak
+SchneiderCowCamp
+SilverforkRoad
+WashoeMeadows
+WillowCreek
+WrightsLake</description>
+    </item>
+    
+    <item>
       <title>Misc</title>
       <link>https://andyl.github.io/xmeyers/ghome/misc/</link>
       <pubDate>Sat, 30 Jan 2021 19:37:57 -0800</pubDate>
@@ -63,7 +85,8 @@ Caltrans QuickMap</description>
 Website Source
 Feedback &amp;amp; Requests
 Webcams
-Sierra at Tahoe Webcams  </description>
+Sierra at Tahoe Webcams  Misc
+Maps</description>
     </item>
     
   </channel>

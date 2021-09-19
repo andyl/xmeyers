@@ -17,3 +17,7 @@ Webcams
 <a target="_blank" href="https://www.sierraattahoe.com/live-cams/">
   Sierra at Tahoe Webcams
 </a>
+
+Misc
+
+<a target="_blank" href="/xmeyers/maps/">Maps</a>
