@@ -54,16 +54,20 @@ Caltrans QuickMap</description>
     </item>
     
     <item>
-      <title>Maps</title>
+      <title>Sierra Maps</title>
       <link>https://andyl.github.io/xmeyers/maps/maps/</link>
       <pubDate>Sat, 30 Jan 2021 19:37:57 -0800</pubDate>
       
       <guid>https://andyl.github.io/xmeyers/maps/maps/</guid>
-      <description>CraterLake
+      <description>ButtermilkCamp
+ButtermilkCircuit
+CraterLake
 FlagpolePeak
 Forestdale
 HawkinsPeak
 LeavittLake
+LeeViningCanyon
+LeeViningPowerplant
 LutherSpires
 MeadowLake
 Osgood
@@ -74,6 +78,17 @@ VikingsholmTrail
 WashoeMeadows
 WillowCreek
 WrightsLake</description>
+    </item>
+    
+    <item>
+      <title>About the Maps</title>
+      <link>https://andyl.github.io/xmeyers/maps/about_maps/</link>
+      <pubDate>Sat, 30 Jan 2021 19:37:57 -0800</pubDate>
+      
+      <guid>https://andyl.github.io/xmeyers/maps/about_maps/</guid>
+      <description>These maps are Geospatial PDF files, generated with CalTopo.
+The maps can be used to navigate using your phone with Avenza.
+back to main page</description>
     </item>
     
     <item>
