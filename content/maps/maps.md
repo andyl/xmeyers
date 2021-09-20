@@ -18,6 +18,8 @@ weight: 10
 
 <a target="_blank" href="/xmeyers/maps/HawkinsPeak.pdf">HawkinsPeak</a> 
 
+<a target="_blank" href="/xmeyers/maps/LakeValley.pdf">LakeValley</a> 
+
 <a target="_blank" href="/xmeyers/maps/LeavittLake.pdf">LeavittLake</a> 
 
 <a target="_blank" href="/xmeyers/maps/LeeViningCanyon.pdf">LeeViningCanyon</a> 
