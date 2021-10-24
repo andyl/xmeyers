@@ -10,6 +10,8 @@ weight: 10
 
 <a target="_blank" href="/xmeyers/maps/ButtermilkCircuit.pdf">ButtermilkCircuit</a> 
 
+<a target="_blank" href="/xmeyers/maps/CarsonPass.pdf">CarsonPass</a> 
+
 <a target="_blank" href="/xmeyers/maps/CraterLake.pdf">CraterLake</a> 
 
 <a target="_blank" href="/xmeyers/maps/FlagpolePeak.pdf">FlagpolePeak</a> 
