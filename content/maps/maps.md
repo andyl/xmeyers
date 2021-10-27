@@ -6,6 +6,8 @@ weight: 10
 
 ---
 
+<a target="_blank" href="/xmeyers/maps/AngoraLakes.pdf">AngoraLakes</a> 
+
 <a target="_blank" href="/xmeyers/maps/AngoraPeak.pdf">AngoraPeak</a> 
 
 <a target="_blank" href="/xmeyers/maps/ButtermilkCamp.pdf">ButtermilkCamp</a> 
@@ -15,6 +17,8 @@ weight: 10
 <a target="_blank" href="/xmeyers/maps/CarsonPass.pdf">CarsonPass</a> 
 
 <a target="_blank" href="/xmeyers/maps/CraterLake.pdf">CraterLake</a> 
+
+<a target="_blank" href="/xmeyers/maps/EchoLakes.pdf">EchoLakes</a> 
 
 <a target="_blank" href="/xmeyers/maps/FlagpolePeak.pdf">FlagpolePeak</a> 
 
