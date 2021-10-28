@@ -6,7 +6,7 @@ weight: 90
 
 ---
 
-These maps are Forest Service roads and hiking trails.
+These maps show Forest Service roads and hiking trails.
 
 Each map is a Geospatial PDF file, generated with <a href="https://caltopo.com">CalTopo</a>.
 
