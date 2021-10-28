@@ -8,35 +8,91 @@
     <language>en-us</language>
     <lastBuildDate>Sat, 30 Jan 2021 19:37:57 -0800</lastBuildDate><atom:link href="https://andyl.github.io/xmeyers/maps/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Sierra Maps</title>
-      <link>https://andyl.github.io/xmeyers/maps/maps/</link>
+      <title>Lake Valley</title>
+      <link>https://andyl.github.io/xmeyers/maps/lake_valley/</link>
       <pubDate>Sat, 30 Jan 2021 19:37:57 -0800</pubDate>
       
-      <guid>https://andyl.github.io/xmeyers/maps/maps/</guid>
+      <guid>https://andyl.github.io/xmeyers/maps/lake_valley/</guid>
       <description>AngoraLakes
 AngoraPeak
-ButtermilkCamp
-ButtermilkCircuit
-CarsonPass
-CraterLake
 EchoLakes
 FlagpolePeak
-Forestdale
-HawkinsPeak
 LakeValley
+Osgood
+WashoeMeadows</description>
+    </item>
+    
+    <item>
+      <title>Blue Lakes</title>
+      <link>https://andyl.github.io/xmeyers/maps/blue_lakes/</link>
+      <pubDate>Sat, 30 Jan 2021 19:37:57 -0800</pubDate>
+      
+      <guid>https://andyl.github.io/xmeyers/maps/blue_lakes/</guid>
+      <description>MeadowLake</description>
+    </item>
+    
+    <item>
+      <title>Carson Pass</title>
+      <link>https://andyl.github.io/xmeyers/maps/carson_pass/</link>
+      <pubDate>Sat, 30 Jan 2021 19:37:57 -0800</pubDate>
+      
+      <guid>https://andyl.github.io/xmeyers/maps/carson_pass/</guid>
+      <description>CarsonPass
+Forestdale
+SchneiderCowCamp</description>
+    </item>
+    
+    <item>
+      <title>Kyburz</title>
+      <link>https://andyl.github.io/xmeyers/maps/kyburz/</link>
+      <pubDate>Sat, 30 Jan 2021 19:37:57 -0800</pubDate>
+      
+      <guid>https://andyl.github.io/xmeyers/maps/kyburz/</guid>
+      <description>SilverforkRoad
+WrightsLake</description>
+    </item>
+    
+    <item>
+      <title>Luther Pass</title>
+      <link>https://andyl.github.io/xmeyers/maps/luther_pass/</link>
+      <pubDate>Sat, 30 Jan 2021 19:37:57 -0800</pubDate>
+      
+      <guid>https://andyl.github.io/xmeyers/maps/luther_pass/</guid>
+      <description>LutherSpires
+WillowCreek</description>
+    </item>
+    
+    <item>
+      <title>Sierra Maps</title>
+      <link>https://andyl.github.io/xmeyers/maps/hope_valley/</link>
+      <pubDate>Sat, 30 Jan 2021 19:37:57 -0800</pubDate>
+      
+      <guid>https://andyl.github.io/xmeyers/maps/hope_valley/</guid>
+      <description>CraterLake
+HawkinsPeak
+PickettPeak</description>
+    </item>
+    
+    <item>
+      <title>South of Tahoe</title>
+      <link>https://andyl.github.io/xmeyers/maps/south_of_tahoe/</link>
+      <pubDate>Sat, 30 Jan 2021 19:37:57 -0800</pubDate>
+      
+      <guid>https://andyl.github.io/xmeyers/maps/south_of_tahoe/</guid>
+      <description>ButtermilkCamp
+ButtermilkCircuit
 LeavittLake
 LeeViningCanyon
-LeeViningPowerplant
-LutherSpires
-MeadowLake
-Osgood
-PickettPeak
-SchneiderCowCamp
-SilverforkRoad
-VikingsholmTrail
-WashoeMeadows
-WillowCreek
-WrightsLake</description>
+LeeViningPowerplant</description>
+    </item>
+    
+    <item>
+      <title>West Shore</title>
+      <link>https://andyl.github.io/xmeyers/maps/west_shore/</link>
+      <pubDate>Sat, 30 Jan 2021 19:37:57 -0800</pubDate>
+      
+      <guid>https://andyl.github.io/xmeyers/maps/west_shore/</guid>
+      <description>VikingsholmTrail</description>
     </item>
     
     <item>
