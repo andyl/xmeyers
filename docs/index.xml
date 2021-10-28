@@ -54,18 +54,36 @@ Caltrans QuickMap</description>
     </item>
     
     <item>
+      <title>Echo Lake</title>
+      <link>https://andyl.github.io/xmeyers/maps/echo_lake/</link>
+      <pubDate>Sat, 30 Jan 2021 19:37:57 -0800</pubDate>
+      
+      <guid>https://andyl.github.io/xmeyers/maps/echo_lake/</guid>
+      <description>AngoraLakes
+AngoraPeak
+EchoLakes
+FlagpolePeak</description>
+    </item>
+    
+    <item>
       <title>Lake Valley</title>
       <link>https://andyl.github.io/xmeyers/maps/lake_valley/</link>
       <pubDate>Sat, 30 Jan 2021 19:37:57 -0800</pubDate>
       
       <guid>https://andyl.github.io/xmeyers/maps/lake_valley/</guid>
-      <description>AngoraLakes
-AngoraPeak
-EchoLakes
-FlagpolePeak
-LakeValley
+      <description>LakeValley
 Osgood
 WashoeMeadows</description>
+    </item>
+    
+    <item>
+      <title>Bishop</title>
+      <link>https://andyl.github.io/xmeyers/maps/bishop/</link>
+      <pubDate>Sat, 30 Jan 2021 19:37:57 -0800</pubDate>
+      
+      <guid>https://andyl.github.io/xmeyers/maps/bishop/</guid>
+      <description>ButtermilkCamp
+ButtermilkCircuit</description>
     </item>
     
     <item>
@@ -110,6 +128,16 @@ WrightsLake</description>
     </item>
     
     <item>
+      <title>Lee Vining</title>
+      <link>https://andyl.github.io/xmeyers/maps/lee_vining/</link>
+      <pubDate>Sat, 30 Jan 2021 19:37:57 -0800</pubDate>
+      
+      <guid>https://andyl.github.io/xmeyers/maps/lee_vining/</guid>
+      <description>LeeViningCanyon
+LeeViningPowerplant</description>
+    </item>
+    
+    <item>
       <title>Luther Pass</title>
       <link>https://andyl.github.io/xmeyers/maps/luther_pass/</link>
       <pubDate>Sat, 30 Jan 2021 19:37:57 -0800</pubDate>
@@ -120,16 +148,12 @@ WillowCreek</description>
     </item>
     
     <item>
-      <title>South of Tahoe</title>
-      <link>https://andyl.github.io/xmeyers/maps/south_of_tahoe/</link>
+      <title>Sonora Pass</title>
+      <link>https://andyl.github.io/xmeyers/maps/sonora_pass/</link>
       <pubDate>Sat, 30 Jan 2021 19:37:57 -0800</pubDate>
       
-      <guid>https://andyl.github.io/xmeyers/maps/south_of_tahoe/</guid>
-      <description>ButtermilkCamp
-ButtermilkCircuit
-LeavittLake
-LeeViningCanyon
-LeeViningPowerplant</description>
+      <guid>https://andyl.github.io/xmeyers/maps/sonora_pass/</guid>
+      <description>LeavittLake</description>
     </item>
     
     <item>

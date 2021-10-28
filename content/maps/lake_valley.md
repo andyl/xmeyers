@@ -6,14 +6,6 @@ weight: 8
 
 ---
 
-<a target="_blank" href="/xmeyers/maps/AngoraLakes.pdf">AngoraLakes</a> 
-
-<a target="_blank" href="/xmeyers/maps/AngoraPeak.pdf">AngoraPeak</a> 
-
-<a target="_blank" href="/xmeyers/maps/EchoLakes.pdf">EchoLakes</a> 
-
-<a target="_blank" href="/xmeyers/maps/FlagpolePeak.pdf">FlagpolePeak</a> 
-
 <a target="_blank" href="/xmeyers/maps/LakeValley.pdf">LakeValley</a> 
 
 <a target="_blank" href="/xmeyers/maps/Osgood.pdf">Osgood</a> 
