@@ -6,5 +6,7 @@ weight: 10
 
 ---
 
+<a target="_blank" href="/xmeyers/maps/CharityValley.pdf">CharityValley</a> 
+
 <a target="_blank" href="/xmeyers/maps/MeadowLake.pdf">MeadowLake</a> 
 
