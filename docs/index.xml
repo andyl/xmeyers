@@ -54,29 +54,6 @@ Caltrans QuickMap</description>
     </item>
     
     <item>
-      <title>Echo Lake</title>
-      <link>https://andyl.github.io/xmeyers/maps/echo_lake/</link>
-      <pubDate>Sat, 30 Jan 2021 19:37:57 -0800</pubDate>
-      
-      <guid>https://andyl.github.io/xmeyers/maps/echo_lake/</guid>
-      <description>AngoraLakes
-AngoraPeak
-EchoLakes
-FlagpolePeak</description>
-    </item>
-    
-    <item>
-      <title>Lake Valley</title>
-      <link>https://andyl.github.io/xmeyers/maps/lake_valley/</link>
-      <pubDate>Sat, 30 Jan 2021 19:37:57 -0800</pubDate>
-      
-      <guid>https://andyl.github.io/xmeyers/maps/lake_valley/</guid>
-      <description>LakeValley
-Osgood
-WashoeMeadows</description>
-    </item>
-    
-    <item>
       <title>Bishop</title>
       <link>https://andyl.github.io/xmeyers/maps/bishop/</link>
       <pubDate>Sat, 30 Jan 2021 19:37:57 -0800</pubDate>
@@ -107,6 +84,18 @@ SchneiderCowCamp</description>
     </item>
     
     <item>
+      <title>Echo Lake</title>
+      <link>https://andyl.github.io/xmeyers/maps/echo_lake/</link>
+      <pubDate>Sat, 30 Jan 2021 19:37:57 -0800</pubDate>
+      
+      <guid>https://andyl.github.io/xmeyers/maps/echo_lake/</guid>
+      <description>AngoraLakes
+AngoraPeak
+EchoLakes
+FlagpolePeak</description>
+    </item>
+    
+    <item>
       <title>Emerald Bay</title>
       <link>https://andyl.github.io/xmeyers/maps/emerald_bay/</link>
       <pubDate>Sat, 30 Jan 2021 19:37:57 -0800</pubDate>
@@ -134,6 +123,17 @@ PickettPeak</description>
       <guid>https://andyl.github.io/xmeyers/maps/kyburz/</guid>
       <description>SilverforkRoad
 WrightsLake</description>
+    </item>
+    
+    <item>
+      <title>Lake Valley</title>
+      <link>https://andyl.github.io/xmeyers/maps/lake_valley/</link>
+      <pubDate>Sat, 30 Jan 2021 19:37:57 -0800</pubDate>
+      
+      <guid>https://andyl.github.io/xmeyers/maps/lake_valley/</guid>
+      <description>LakeValley
+Osgood
+WashoeMeadows</description>
     </item>
     
     <item>
