@@ -81,6 +81,7 @@ MeadowLake</description>
       <guid>https://andyl.github.io/xmeyers/maps/carson_pass/</guid>
       <description>CarsonPass
 Forestdale
+RoundLakeCarson
 SchneiderCowCamp</description>
     </item>
     
@@ -168,7 +169,7 @@ LeeViningPowerplant</description>
       
       <guid>https://andyl.github.io/xmeyers/maps/luther_pass/</guid>
       <description>LutherSpires
-RoundLake
+RoundLakeLuther
 WaterhousePeak
 WillowCreek</description>
     </item>
