@@ -10,3 +10,7 @@ weight: 2
 
 <a target="_blank" href="http://quickmap.dot.ca.gov/">Caltrans QuickMap</a>
 
+<a target="_blank" href="https://oss.weathershare.org/?clat=38.85304&clng=-120.02144&zoom=13">Weathershare</a>
+
+<a target="_blank" href="https://chainguy.com">Chainguy</a>
+
