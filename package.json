@@ -10,7 +10,9 @@
   "license": "ISC",
   "dependencies": {
     "autoprefixer": "^10.2.4",
-    "postcss-cli": "^8.3.1",
     "tailwindcss": "^2.0.2"
+  },
+  "devDependencies": {
+    "postcss-cli": "^9.1.0"
   }
 }
