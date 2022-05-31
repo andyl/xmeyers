@@ -5,3 +5,6 @@ publishDir = "docs"
 
 [markup.goldmark.renderer]
 unsafe= true
+
+[security.exec]
+  osEnv = ['.*']
