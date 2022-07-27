@@ -6,8 +6,8 @@ weight: 10
 
 ---
 
-<a target="_blank" href="/xmeyers/maps/BirchamFlat.pdf">BirchamFlat</a> 
+<a target="_blank" href="/xmeyers/maps/BurchamFlat.pdf">BurchamFlat</a> 
 
-<a target="_blank" href="/xmeyers/maps/LabdellLake.pdf">LabdellLake</a> 
+<a target="_blank" href="/xmeyers/maps/LobdellLake.pdf">LobdellLake</a> 
 
 <a target="_blank" href="/xmeyers/maps/JackassFlat.pdf">JackassFlat</a> 
