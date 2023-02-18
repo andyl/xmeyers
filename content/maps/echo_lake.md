@@ -12,5 +12,7 @@ weight: 10
 
 <a target="_blank" href="/xmeyers/maps/EchoLakes.pdf">EchoLakes</a> 
 
+<a target="_blank" href="/xmeyers/maps/EchoBowl.pdf">EchoBowl</a> 
+
 <a target="_blank" href="/xmeyers/maps/FlagpolePeak.pdf">FlagpolePeak</a> 
 
