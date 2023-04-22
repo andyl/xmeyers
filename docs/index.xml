@@ -56,6 +56,16 @@ Chainguy</description>
     </item>
     
     <item>
+      <title>American River Canyon</title>
+      <link>https://andyl.github.io/xmeyers/maps/american_river/</link>
+      <pubDate>Sat, 30 Jan 2021 19:37:57 -0800</pubDate>
+      
+      <guid>https://andyl.github.io/xmeyers/maps/american_river/</guid>
+      <description>PyramidPeak
+RalstonPeak</description>
+    </item>
+    
+    <item>
       <title>Bishop</title>
       <link>https://andyl.github.io/xmeyers/maps/bishop/</link>
       <pubDate>Sat, 30 Jan 2021 19:37:57 -0800</pubDate>
@@ -83,7 +93,9 @@ MeadowLake</description>
       <guid>https://andyl.github.io/xmeyers/maps/carson_pass/</guid>
       <description>CarsonPass
 Forestdale
+RedLakePeak
 RoundLakeCarson
+RoundTop
 SchneiderCowCamp</description>
     </item>
     
@@ -141,7 +153,8 @@ VikingsholmTrail</description>
       <guid>https://andyl.github.io/xmeyers/maps/hope_valley/</guid>
       <description>CraterLake
 HawkinsPeak
-PickettPeak</description>
+PickettPeak
+StevensPeak</description>
     </item>
     
     <item>

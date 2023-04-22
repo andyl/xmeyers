@@ -12,3 +12,5 @@ weight: 10
 
 <a target="_blank" href="/xmeyers/maps/PickettPeak.pdf">PickettPeak</a> 
 
+<a target="_blank" href="/xmeyers/maps/StevensPeak.pdf">StevensPeak</a> 
+
