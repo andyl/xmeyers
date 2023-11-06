@@ -2,12 +2,11 @@
 <html>
   <head>
     <title>{{ .Site.Title }}</title>
-
     {{ $styles := resources.Get "css/main.css" }} 
     {{ $styles = $styles | resources.PostCSS (dict "inlineImports" true) | minify | fingerprint}} 
-
     <link href="{{ $styles.Permalink }}" rel="stylesheet" />
     <link rel="shortcut icon" href="/xmeyers/img/favicon.ico" /> 
+    <script defer data-domain="xmeyers" src="https://plausible.io/js/script.js"></script>
   </head>
 
   <body>
