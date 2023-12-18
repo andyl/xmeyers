@@ -18,10 +18,10 @@ weight: 3
 - <a target="_blank" href="https://cwwp2.dot.ca.gov/vm/loc/d3/hwy50atmeyers.htm">
     Meyers Roundabout
   </a>
+- <a target="_blank" href="https://cwwp2.dot.ca.gov/vm/loc/d3/pioneertrailed50eb2.htm">
+    Hwy 50 at Pioneer Trail
+  </a>
 - <a target="_blank" href="https://cwwp2.dot.ca.gov/vm/loc/d3/hwy50athwy89.htm">
     Hwy 50 at Hwy 89
-  </a>
-- <a target="_blank" href="https://cwwp2.dot.ca.gov/vm/loc/d3/hwy50atskirun.htm">
-    Hwy 50 at SkiRun
   </a>
 
