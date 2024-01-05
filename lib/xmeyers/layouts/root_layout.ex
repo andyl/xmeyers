@@ -16,6 +16,9 @@ defmodule Xmeyers.RootLayout do
           ul, ol { list-style-type: none; }
           li { padding-left: 0; margin-left: 0; }
         </style>
+        <%= if Mix.env() == :prod do %>
+          <script defer data-domain="xmeyers" src="https://plausible.io/js/script.js"></script>
+        <% end %>
       </head>
 
       <body>

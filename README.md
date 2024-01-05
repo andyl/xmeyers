@@ -21,8 +21,8 @@ Content files are in `_cards/*.md`.
 ## Building
 
 ```
-$ mix serve
-$ mix build
+$ bin/serve
+$ bin/build
 ```
 
 ## Deploying
