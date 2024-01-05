@@ -66,12 +66,15 @@ Phase 3 - TABLEAU
 - [x] Link to PDF maps
 
 ## 2024 Jan 05 Fri
+ 
+Actions
+- [x] Fix formatting 
+- [x] Push to Github Pages in Xmeyers
+- [x] Add page tracker in Xmeyers repo 
+- [x] Extract Tableau.Card to standalone repo (tableau_ext)
+- [x] Make PR for Tableau README update
 
-- [ ] Fix formatting 
-- [ ] Push to Github Pages in Xmeyers
-- [ ] Add page tracker in Xmeyers repo 
-
-- [ ] Extract Tableau.Card to standalone repo 
-- [ ] Make PR for Tableau README update
-
-- [ ] Fix live-reload tag
+Tableau Issues
+- [ ] live-reload doesn't work 
+- [ ] `tableau.build` should run with `MIX_ENV=prod` (?)
+- [ ] tons of telemetry warnings...
