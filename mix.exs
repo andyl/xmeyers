@@ -29,7 +29,8 @@ defmodule Xmeyers.MixProject do
     [
       # {:tableau, "~> 0.12"},
       # {:tableau, path: "~/zz/tableau"},
-      {:tableau, github: "andyl/tableau", branch: "basepath_routing"},
+      # {:tableau, github: "andyl/tableau", branch: "basepath_routing"},
+      {:tableau, github: "andyl/tableau", branch: "start_telemetry_app"},
       # {:tableau_ext, path: "~/src/tableau_ext"},
       {:tableau_ext, github: "andyl/tableau_ext"},
       {:phoenix_live_view, "~> 0.20"},
