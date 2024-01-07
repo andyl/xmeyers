@@ -28,11 +28,10 @@ defmodule Xmeyers.MixProject do
   defp deps do
     [
       # {:tableau, "~> 0.12"},
-      # {:tableau, path: "~/zz/tableau"},
+      {:tableau, path: "~/src/forks/tableau"},
       # {:tableau, github: "andyl/tableau", branch: "basepath_routing"},
-      {:tableau, github: "andyl/tableau", branch: "start_telemetry_app"},
-      # {:tableau_ext, path: "~/src/tableau_ext"},
-      {:tableau_ext, github: "andyl/tableau_ext"},
+      {:tableau_ext, path: "~/src/tableau_ext"},
+      # {:tableau_ext, github: "andyl/tableau_ext"},
       {:phoenix_live_view, "~> 0.20"},
       {:html_entities, "~> 0.5"},
       {:floki, "~> 0.34"},

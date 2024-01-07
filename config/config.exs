@@ -46,4 +46,6 @@ config :tableau, Tableau.RSSExtension,
   title: "XMEYERS",
   description: "XMEYERS SITE"
 
+config :schematic, :config, disable_telemetry: true
+
 import_config "#{Mix.env()}.exs"
