@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>XMEYERS</title>
+    <link rel="icon" href="/xmeyers/static/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="/xmeyers/css/site.css">
+    <style>
+      a { color: blue; text-decoration: none; font-weight: normal; }
+      a:hover { text-decoration: underline; }
+      ul, ol { list-style-type: none; }
+      li { padding-left: 0; margin-left: 0; }
+      .cctv-webcam {width: 320px;height: 400px;background-color: #ffffff;}
+    </style>
+    
+  </head>
+
+  <body>
+    <div class="px-3 bg-gray-100 md:flex md:items-center md:justify-between">
+      <div class="flex-1 min-w-0">
+        <div class="text-2xl text-gray-900 leading-7 sm:text-3xl sm:truncate">
+          <img class="inline align-middle" style="padding-bottom: 3px;" src="/xmeyers/static/img/mountain-15-32.png"> XmeyerB!
+        </div>
+      </div>
+      <div class="flex mt-4 md:mt-0 md:ml-4"></div>
+    </div>
+    <h2 style="padding-bottom:1em;">Caltrans Traffic Cams</h2>
+<div class="row">
+  <div class="col-md-6 text-center">
+    <iframe class="cctv-webcam" frameborder="0" src="https://cwwp2.dot.ca.gov/vm/loc/d3/hwy50atsierraeb.htm">
+    </iframe>
+  </div>
+  <div class="col-md-6 text-center">
+    <iframe class="cctv-webcam" frameborder="0" src="https://cwwp2.dot.ca.gov/vm/loc/d3/hwy50atechosummit.htm">
+    </iframe>
+  </div>
+  <div class="col-md-6 text-center">
+    <iframe class="cctv-webcam" frameborder="0" src="https://cwwp2.dot.ca.gov/vm/loc/d3/hwy50attwinbridges.htm">
+    </iframe>
+  </div>
+  <div class="col-md-6 text-center">
+    <iframe class="cctv-webcam" frameborder="0" src="https://cwwp2.dot.ca.gov/vm/loc/d3/hwy50atmeyers.htm">
+    </iframe>
+  </div>
+</div>
+  </body>
+  
+    <script>
+  function log(message) {
+    if (true) {
+      console.log(`[web_dev_utils] ${message}`)
+    }
+  }
+  function connect() {
+    try {
+      window.socket = new WebSocket('ws://' + location.host + '/ws');
+
+      window.socket.onmessage = function(e) {
+        if (e.data === "reload") {
+          log("reloading!");
+          location.reload();
+        } else if (e.data === "subscribed") {
+          log("connected and subscribed!");
+        }
+      }
+
+      window.socket.onopen = () => {
+        waitForConnection(() => {
+          log("sending 'subscribe' message");
+          window.socket.send("subscribe")
+        }
+        , 300);
+      };
+
+      window.socket.onclose = () => {
+        log("close")
+        setTimeout(() => connect(), 500);
+      };
+
+      function waitForConnection(callback, interval) {
+        log("waiting for connection!")
+        if (window.socket.readyState === 1) {
+          callback();
+        } else {
+          log("setting a timeout")
+          setTimeout(() => waitForConnection(callback, interval), interval);
+        }
+      }
+    } catch (e) {
+      log("CONNECTION_ERRROR");
+      log(e);
+      setTimeout(() => connect(), 500);
+    }
+  }
+
+  log("connecting...");
+  connect();
+</script>
+
+  
+</html>

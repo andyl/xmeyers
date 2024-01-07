@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>XMEYERS</title>
+    <title>Xmeyers</title>
     <link rel="icon" href="/xmeyers/static/img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="/xmeyers/css/site.css">
     <style>
@@ -9,6 +9,7 @@
       a:hover { text-decoration: underline; }
       ul, ol { list-style-type: none; }
       li { padding-left: 0; margin-left: 0; }
+      .cctv-webcam {width: 320px;height: 400px;background-color: #ffffff;}
     </style>
     
   </head>
@@ -252,7 +253,7 @@
   
     <script>
   function log(message) {
-    if (false) {
+    if (true) {
       console.log(`[web_dev_utils] ${message}`)
     }
   }
@@ -278,6 +279,7 @@
       };
 
       window.socket.onclose = () => {
+        log("close")
         setTimeout(() => connect(), 500);
       };
 
@@ -291,12 +293,13 @@
         }
       }
     } catch (e) {
+      log("CONNECTION_ERRROR");
       log(e);
       setTimeout(() => connect(), 500);
     }
   }
 
-  log("about to connect");
+  log("connecting...");
   connect();
 </script>
 

@@ -13,15 +13,12 @@ config :tableau, :config,
 
 config :tableau, :reloader,
   patterns: [
-    ~r"lib/*.ex",
-    ~r"lib/layouts/*.ex",
-    ~r"_cards/*.md",
-    ~r"_cards/*/*.md",
-    ~r"assets/*.(css|js)"
+    ~r"lib/.*ex",
+    ~r"_cards/.*md",
+    ~r"assets/.*(css|js)"
   ]
 
-# config :web_dev_utils, :reload_log, true
-# config :web_dev_utils, :reload_url, "'ws://localhost:4999/ws'"
+config :web_dev_utils, :reload_log, true
 
 config :tailwind,
   version: "3.3.5",
