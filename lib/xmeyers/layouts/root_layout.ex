@@ -7,7 +7,7 @@ defmodule Xmeyers.RootLayout do
     <!DOCTYPE html>
     <html>
       <head>
-        <title>XMEYERS</title>
+        <title>Xmeyers</title>
         <link rel="icon" href="/xmeyers/static/img/favicon.ico" type="image/x-icon" />
         <link rel="stylesheet" type="text/css" href="/xmeyers/css/site.css" />
         <style>
@@ -15,9 +15,11 @@ defmodule Xmeyers.RootLayout do
           a:hover { text-decoration: underline; }
           ul, ol { list-style-type: none; }
           li { padding-left: 0; margin-left: 0; }
+          .cctv-webcam {width: 320px;height: 400px;background-color: #ffffff;}
         </style>
         <%= if Mix.env() == :prod do %>
-          <script defer data-domain="xmeyers" src="https://plausible.io/js/script.js"></script>
+          <script defer data-domain="xmeyers" src="https://plausible.io/js/script.js">
+          </script>
         <% end %>
       </head>
 

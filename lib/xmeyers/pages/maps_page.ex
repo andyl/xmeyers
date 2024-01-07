@@ -1,4 +1,4 @@
-defmodule Xmeyers.MapPage do
+defmodule Xmeyers.MapsPage do
   use Tableau.Page, layout: Xmeyers.RootLayout, permalink: "/maps"
   use Phoenix.Component
 

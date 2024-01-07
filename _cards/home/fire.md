@@ -20,8 +20,4 @@ weight: 4
 - Weather: 
  <a target="_blank" href="https://www.youtube.com/channel/UCGjtp7iaeVmoVx-K7EGiYKA">HoltHanley</a> | 
  <a target="_blank" href="https://weather.cod.edu/satrad/?parms=subregional-SanFran-natcolorfire-96-0-100-2&checked=map&colorbar=undefined">DuPage</a>
-- FireCams: 
- <a target="_blank" href="http://www.alertwildfire.org/tahoe/index.html?camera=Axis-Sierra&v=fd40734">SierraAtTahoe</a> | 
- <a target="_blank" href="http://www.alertwildfire.org/tahoe/index.html?camera=Axis-HawkinsPeak&v=fd40734">HawkinsPeak</a> | 
- <a target="_blank" href="http://www.alertwildfire.org/tahoe/index.html?camera=Axis-Heavenly2&v=fd40734">Heavenly</a>
 

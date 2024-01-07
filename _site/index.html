@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>XMEYERS</title>
+    <title>Xmeyers</title>
     <link rel="icon" href="/xmeyers/static/img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="/xmeyers/css/site.css">
     <style>
@@ -9,7 +9,11 @@
       a:hover { text-decoration: underline; }
       ul, ol { list-style-type: none; }
       li { padding-left: 0; margin-left: 0; }
+      .cctv-webcam {width: 320px;height: 400px;background-color: #ffffff;}
     </style>
+    
+      <script defer data-domain="xmeyers" src="https://plausible.io/js/script.js">
+      </script>
     
   </head>
 
@@ -41,6 +45,40 @@
   
     <div class="relative border border-gray-300 rounded-lg shadow-sm space-x-3">
       <div class="px-4 bg-blue-100 border-gray-200 rounded-t-lg">
+        Cams
+      </div>
+
+      <div class="my-2 text-sm text-gray-500">
+        <ul>
+<li>
+<a target="_blank" href="/xmeyers/cams">
+  Road Cams
+</a>
+</li>
+<li>
+<a target="_blank" href="https://www.sierraattahoe.com/live-cams/">
+  SierraAtTahoe Webcams
+</a>
+</li>
+<li>
+<p>Fire:
+<a target="_blank" href="http://www.alertwildfire.org/tahoe/index.html?camera=Axis-Sierra&v=fd40734">
+SierraAtTahoe
+</a> |
+<a target="_blank" href="http://www.alertwildfire.org/tahoe/index.html?camera=Axis-HawkinsPeak&v=fd40734">
+Hawkins
+</a> |
+<a target="_blank" href="http://www.alertwildfire.org/tahoe/index.html?camera=Axis-Heavenly2&v=fd40734">
+Heavenly
+</a></p>
+</li>
+</ul>
+
+      </div>
+    </div>
+  
+    <div class="relative border border-gray-300 rounded-lg shadow-sm space-x-3">
+      <div class="px-4 bg-blue-100 border-gray-200 rounded-t-lg">
         Traffic
       </div>
 
@@ -49,48 +87,6 @@
 <p><a target="_blank" href="http://quickmap.dot.ca.gov/">Caltrans QuickMap</a></p>
 <p><a target="_blank" href="https://oss.weathershare.org/?clat=38.85304&clng=-120.02144&zoom=13">Weathershare</a></p>
 <p><a target="_blank" href="https://chainguy.com">Chainguy</a></p>
-
-      </div>
-    </div>
-  
-    <div class="relative border border-gray-300 rounded-lg shadow-sm space-x-3">
-      <div class="px-4 bg-blue-100 border-gray-200 rounded-t-lg">
-        RoadCams
-      </div>
-
-      <div class="my-2 text-sm text-gray-500">
-        <ul>
-<li>
-<a target="_blank" href="https://cwwp2.dot.ca.gov/vm/loc/d3/hwy50attwinbridges.htm">
-  Twin Bridges
-</a>
-</li>
-<li>
-<a target="_blank" href="https://cwwp2.dot.ca.gov/vm/loc/d3/hwy50atsierraeb.htm">
-  Sierra At Tahoe
-</a>
-</li>
-<li>
-<a target="_blank" href="https://cwwp2.dot.ca.gov/vm/loc/d3/hwy50atechosummit.htm">
-  Echo Summit
-</a>
-</li>
-<li>
-<a target="_blank" href="https://cwwp2.dot.ca.gov/vm/loc/d3/hwy50atmeyers.htm">
-  Meyers Roundabout
-</a>
-</li>
-<li>
-<a target="_blank" href="https://cwwp2.dot.ca.gov/vm/loc/d3/pioneertrailed50eb2.htm">
-  Hwy 50 at Pioneer Trail
-</a>
-</li>
-<li>
-<a target="_blank" href="https://cwwp2.dot.ca.gov/vm/loc/d3/hwy50athwy89.htm">
-  Hwy 50 at Hwy 89
-</a>
-</li>
-</ul>
 
       </div>
     </div>
@@ -116,10 +112,6 @@
 <li>Weather:
 <a target="_blank" href="https://www.youtube.com/channel/UCGjtp7iaeVmoVx-K7EGiYKA">HoltHanley</a> |
 <a target="_blank" href="https://weather.cod.edu/satrad/?parms=subregional-SanFran-natcolorfire-96-0-100-2&checked=map&colorbar=undefined">DuPage</a></li>
-<li>FireCams:
-<a target="_blank" href="http://www.alertwildfire.org/tahoe/index.html?camera=Axis-Sierra&v=fd40734">SierraAtTahoe</a> |
-<a target="_blank" href="http://www.alertwildfire.org/tahoe/index.html?camera=Axis-HawkinsPeak&v=fd40734">HawkinsPeak</a> |
-<a target="_blank" href="http://www.alertwildfire.org/tahoe/index.html?camera=Axis-Heavenly2&v=fd40734">Heavenly</a></li>
 </ul>
 
       </div>
@@ -185,65 +177,11 @@ input:hover {
 <p><a target="_blank" href="https://github.com/andyl/xmeyers/issues">Feedback &amp; Requests</a></p>
 <p>Other</p>
 <p><a target="_blank" href="/xmeyers/maps/">Sierra Maps</a></p>
-<a target="_blank" href="https://www.sierraattahoe.com/live-cams/">
-  Sierra at Tahoe Webcams
-</a>
 
       </div>
     </div>
   
 </div>
   </body>
-  
-    <script>
-  function log(message) {
-    if (false) {
-      console.log(`[web_dev_utils] ${message}`)
-    }
-  }
-  function connect() {
-    try {
-      window.socket = new WebSocket('ws://' + location.host + '/ws');
-
-      window.socket.onmessage = function(e) {
-        if (e.data === "reload") {
-          log("reloading!");
-          location.reload();
-        } else if (e.data === "subscribed") {
-          log("connected and subscribed!");
-        }
-      }
-
-      window.socket.onopen = () => {
-        waitForConnection(() => {
-          log("sending 'subscribe' message");
-          window.socket.send("subscribe")
-        }
-        , 300);
-      };
-
-      window.socket.onclose = () => {
-        setTimeout(() => connect(), 500);
-      };
-
-      function waitForConnection(callback, interval) {
-        log("waiting for connection!")
-        if (window.socket.readyState === 1) {
-          callback();
-        } else {
-          log("setting a timeout")
-          setTimeout(() => waitForConnection(callback, interval), interval);
-        }
-      }
-    } catch (e) {
-      log(e);
-      setTimeout(() => connect(), 500);
-    }
-  }
-
-  log("about to connect");
-  connect();
-</script>
-
   
 </html>
