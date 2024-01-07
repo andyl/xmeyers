@@ -5,7 +5,7 @@ defmodule Xmeyers.MixProject do
     [
       app: :heex_demo,
       version: "0.1.0",
-      elixir: "~> 1.15",
+      elixir: "~> 1.16",
       start_permanent: Mix.env() == :prod,
       aliases: aliases(),
       deps: deps()
@@ -27,7 +27,7 @@ defmodule Xmeyers.MixProject do
 
   defp deps do
     [
-      # {:tableau, "~> 0.12"},
+      # {:tableau, "~> 0.14"},
       {:tableau, path: "~/src/forks/tableau"},
       # {:tableau, github: "andyl/tableau", branch: "basepath_routing"},
       {:tableau_ext, path: "~/src/tableau_ext"},
