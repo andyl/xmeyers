@@ -27,11 +27,7 @@ defmodule Xmeyers.RootLayout do
         <div class="px-3 bg-gray-100 md:flex md:items-center md:justify-between">
           <div class="flex-1 min-w-0">
             <div class="text-2xl text-gray-900 leading-7 sm:text-3xl sm:truncate">
-              <img
-                class="inline align-middle"
-                style="padding-bottom: 3px;"
-                src="/xmeyers/static/img/mountain-15-32.png"
-              /> Xmeyers
+              <.navlogo plink={@page.permalink} />
               <.navbar plink={@page.permalink} />
             </div>
           </div>
@@ -56,6 +52,26 @@ defmodule Xmeyers.RootLayout do
       <.navlink label="Cams" plink={@plink} ref="/cams" /> |
       <.navlink label="Maps" plink={@plink} ref="/maps" />
     </div>
+    """
+  end
+
+  defp logo(assigns) do
+    ~H"""
+    <img
+      class="inline align-middle"
+      style="padding-bottom: 3px;"
+      src="/xmeyers/static/img/mountain-15-32.png"
+    /> Xmeyers
+    """
+  end
+
+  defp navlogo(assigns) do
+    ~H"""
+    <%= if "/" != @plink do %>
+      <a href="/xmeyers/" class="text-black font-normal hover:text-blue"><.logo /></a>
+    <% else %>
+      <.logo />
+    <% end %>
     """
   end
 
