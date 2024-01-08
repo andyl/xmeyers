@@ -20,6 +20,8 @@ config :tableau, :reloader,
 
 config :web_dev_utils, :reload_log, true
 
+config :logger, level: :info
+
 config :tailwind,
   version: "3.3.5",
   default: [

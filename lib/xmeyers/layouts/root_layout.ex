@@ -32,6 +32,7 @@ defmodule Xmeyers.RootLayout do
                 style="padding-bottom: 3px;"
                 src="/xmeyers/static/img/mountain-15-32.png"
               /> Xmeyers
+              <.navbar plink={@page.permalink} />
             </div>
           </div>
           <div class="flex mt-4 md:mt-0 md:ml-4"></div>
@@ -46,5 +47,25 @@ defmodule Xmeyers.RootLayout do
     |> Phoenix.HTML.Safe.to_iodata()
     |> IO.iodata_to_binary()
     |> HtmlEntities.decode()
+  end
+
+  defp navbar(assigns) do
+    ~H"""
+    <div class="inline text-xs pl-8">
+      <.navlink label="Home" plink={@plink} ref="/" /> |
+      <.navlink label="Cams" plink={@plink} ref="/cams" /> |
+      <.navlink label="Maps" plink={@plink} ref="/maps" />
+    </div>
+    """
+  end
+
+  defp navlink(assigns) do
+    ~H"""
+    <%= if @ref != @plink do %>
+      <a href={"/xmeyers/#{@ref}"}><%= @label %></a>
+    <% else %>
+      <bold><%= @label %></bold>
+    <% end %>
+    """
   end
 end
