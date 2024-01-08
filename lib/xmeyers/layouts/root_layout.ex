@@ -62,7 +62,7 @@ defmodule Xmeyers.RootLayout do
   defp navlink(assigns) do
     ~H"""
     <%= if @ref != @plink do %>
-      <a href={"/xmeyers/#{@ref}"}><%= @label %></a>
+      <a href={"/xmeyers#{@ref}"}><%= @label %></a>
     <% else %>
       <bold><%= @label %></bold>
     <% end %>
