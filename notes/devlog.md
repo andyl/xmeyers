@@ -74,7 +74,9 @@ Actions
 - [x] Extract Tableau.Card to standalone repo (tableau_ext)
 - [x] Make PR for Tableau README update
 
+## 2024 Jan 08 Mon 
+
 Tableau Issues
-- [ ] live-reload doesn't work 
-- [ ] `tableau.build` should run with `MIX_ENV=prod` (?)
-- [ ] tons of telemetry warnings...
+- [x] live-reload doesn't work 
+- [x] `tableau.build` should run with `MIX_ENV=prod` (?)
+- [x] tons of telemetry warnings...
