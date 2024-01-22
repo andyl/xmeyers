@@ -6,7 +6,7 @@ weight: 2
 
 ---
  
-- <a target="_blank" href="/xmeyers/cams">
+- <a href="/xmeyers/cams">
     Road Cams
   </a>
 
