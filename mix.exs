@@ -5,7 +5,7 @@ defmodule Xmeyers.MixProject do
     [
       app: :heex_demo,
       version: "0.1.0",
-      elixir: "~> 1.16",
+      elixir: "~> 1.17",
       start_permanent: Mix.env() == :prod,
       aliases: aliases(),
       deps: deps()
@@ -27,11 +27,11 @@ defmodule Xmeyers.MixProject do
 
   defp deps do
     [
-      {:tableau, "~> 0.15"},
+      {:tableau, "~> 0.17"},
       {:tableau_ext, github: "andyl/tableau_ext", branch: "master"},
       {:phoenix_live_view, "~> 0.20"},
       {:html_entities, "~> 0.5"},
-      {:floki, "~> 0.34"},
+      {:floki, "~> 0.36"},
       {:tailwind, "~> 0.2", runtime: Mix.env() == :dev}
     ]
   end
