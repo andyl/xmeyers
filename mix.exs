@@ -29,6 +29,7 @@ defmodule Xmeyers.MixProject do
     [
       {:tableau, "~> 0.17"},
       {:tableau_ext, github: "andyl/tableau_ext", branch: "master"},
+      {:nimble_publisher, "~> 1.1"},
       {:phoenix_live_view, "~> 0.20"},
       {:html_entities, "~> 0.5"},
       {:floki, "~> 0.36"},
