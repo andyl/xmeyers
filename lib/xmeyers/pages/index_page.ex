@@ -4,6 +4,7 @@ defmodule Xmeyers.IndexPage do
 
   def template(assigns) do
     assigns = Map.put(assigns, :home_cards, home_cards(assigns))
+
     ~H"""
     <.showcards cards={@home_cards} />
     """
@@ -15,11 +16,11 @@ defmodule Xmeyers.IndexPage do
       <%= for card <- @cards do %>
         <div class="relative border border-gray-300 rounded-lg shadow-sm space-x-3">
           <div class="px-4 bg-blue-100 border-gray-200 rounded-t-lg">
-            <%= card.title %>
+            { card.title }
           </div>
 
           <div class="my-2 text-sm text-gray-500">
-            <%= card.body %>
+            { elem(card.body, 1) }
           </div>
         </div>
       <% end %>
