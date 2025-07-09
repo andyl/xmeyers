@@ -33,10 +33,10 @@ defmodule Xmeyers.RootLayout do
           </div>
           <div class="flex mt-4 md:mt-0 md:ml-4"></div>
         </div>
-        <%= render(@inner_content) %>
+        {render(@inner_content)}
       </body>
       <%= if Mix.env() == :dev do %>
-        <%= Tableau.live_reload(assigns) %>
+        {Tableau.live_reload(assigns)}
       <% end %>
     </html>
     """
@@ -78,9 +78,9 @@ defmodule Xmeyers.RootLayout do
   defp navlink(assigns) do
     ~H"""
     <%= if @ref != @plink do %>
-      <a href={"/xmeyers#{@ref}"}><%= @label %></a>
+      <a href={"/xmeyers#{@ref}"}>{@label}</a>
     <% else %>
-      <bold><%= @label %></bold>
+      <bold>{@label}</bold>
     <% end %>
     """
   end
