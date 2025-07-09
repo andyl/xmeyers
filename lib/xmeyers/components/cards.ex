@@ -13,11 +13,11 @@ defmodule Xmeyers.Components.Cards do
 
   def showcard(assigns) do
     ~H"""
-    <div class="relative border border-gray-300 rounded-lg shadow-sm space-x-3">
-    <div class={"px-4 bg-#{@color}-100 border-gray-200 rounded-t-lg"}>
+    <div class="relative border border-gray-300 rounded-lg shadow-sm">
+      <div class={"px-4 bg-#{@color}-100 border-gray-200 rounded-t-lg"}>
         { @title }
       </div>
-      <div class="my-2 text-sm text-gray-500">
+      <div class="my-2 px-4 text-sm text-gray-500">
         <%= for block <- @blocks do %>
           <.showblock block={block} />
         <% end %>
@@ -50,5 +50,4 @@ defmodule Xmeyers.Components.Cards do
     </p>
     """
   end
-
 end

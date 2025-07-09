@@ -3,7 +3,7 @@ defmodule Xmeyers.MixProject do
 
   def project do
     [
-      app: :heex_demo,
+      app: :xmeyers,
       version: "0.1.0",
       elixir: "~> 1.17",
       start_permanent: Mix.env() == :prod,

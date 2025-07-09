@@ -68,7 +68,7 @@ defmodule Xmeyers.RootLayout do
   defp navlogo(assigns) do
     ~H"""
     <%= if "/" != @plink do %>
-      <a href="/xmeyers/" class="text-black font-normal hover:text-blue"><.logo /></a>
+      <a href="/xmeyers/" class="font-normal hover:text-blue" style="color: black;"><.logo /></a>
     <% else %>
       <.logo />
     <% end %>
