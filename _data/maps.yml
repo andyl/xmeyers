@@ -1,0 +1,7 @@
+--- 
+- "About the Maps": 
+    - txt: |
+        <p>These maps show Forest Service roads and hiking trails.</p>
+        <p>Each map is a Geospatial PDF file, generated with <a href="https://caltopo.com">CalTopo</a>.</p>
+        <p>Load the maps on your phone to navigate with <a href="https://www.avenzamaps.com">Avenza</a>.</p>
+
