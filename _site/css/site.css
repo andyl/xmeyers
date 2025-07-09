@@ -717,6 +717,10 @@ select{
   margin-top: 1rem;
 }
 
+.block{
+  display: block;
+}
+
 .inline{
   display: inline;
 }

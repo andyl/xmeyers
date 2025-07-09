@@ -27,13 +27,12 @@ defmodule Xmeyers.MixProject do
 
   defp deps do
     [
-      {:tableau, "~> 0.20"},
-      {:tableau_ext, github: "andyl/tableau_ext", branch: "master"},
+      {:tableau, "~> 0.25"},
       {:nimble_publisher, "~> 1.1"},
       {:phoenix_live_view, "~> 1.0"},
       {:html_entities, "~> 0.5"},
       {:floki, "~> 0.36"},
-      {:tailwind, "~> 0.2", runtime: Mix.env() == :dev}
+      {:tailwind, "~> 0.3", runtime: Mix.env() == :dev}
     ]
   end
 end
