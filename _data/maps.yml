@@ -5,6 +5,38 @@
     - url: /xmeyers/static/maps/RalstonPeak.pdf
       lbl: RalstonPeak
 
+- Bishop: 
+    - url: /xmeyers/static/maps/ButtermilkCamp.pdf
+      lbl: ButtermilkCamp 
+    - url: /xmeyers/static/maps/ButtermilkCircuit.pdf
+      lbl: ButtermilkCircuit
+
+- Blue Lakes: 
+    - url: /xmeyers/static/maps/CharityValley.pdf
+      lbl: CharityValley 
+    - url: /xmeyers/static/maps/MeadowLake.pdf
+      lbl: MeadowLake
+
+- Carson Pass:  
+    - url: /xmeyers/static/maps/CarsonPass.pdf
+      lbl: CarsonPass  
+    - url: /xmeyers/static/maps/Forestdale.pdf
+      lbl: Forestdale  
+    - url: /xmeyers/static/maps/RedLakePeak.pdf
+      lbl: RedLakePeak  
+    - url: /xmeyers/static/maps/RoundLakeCarson.pdf
+      lbl: RoundLakeCarson  
+    - url: /xmeyers/static/maps/RoundTop.pdf
+      lbl: RoundTop  
+    - url: /xmeyers/static/maps/SchneiderCowCamp.pdf
+      lbl: SchneiderCowCamp  
+
+- Ebbetts Pass: 
+    - url: /xmeyers/static/maps/HighlandLakes.pdf
+      lbl: HighlandLakes  
+    - url: /xmeyers/static/maps/WolfCreek.pdf
+      lbl: WolfCreek  
+
 - About the Maps: 
     - txt: |
         <p>These maps show Forest Service roads and hiking trails.</p>

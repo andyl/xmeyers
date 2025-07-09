@@ -24,7 +24,7 @@ defmodule Xmeyers.RootLayout do
       </head>
 
       <body>
-        <div class="px-3 py-10 bg-gray-100 md:flex md:items-center md:justify-between">
+        <div class="px-3 py-2 bg-gray-100 md:flex md:items-center md:justify-between">
           <div class="flex-1 min-w-0">
             <div class="text-2xl text-gray-900 leading-7 sm:text-3xl sm:truncate">
               <.navlogo plink={@page.permalink} />
