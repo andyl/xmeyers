@@ -1,5 +1,11 @@
 --- 
-- "About the Maps": 
+- American River Canyon: 
+    - url: /xmeyers/static/maps/PyramidPeak.pdf
+      lbl: PyramidPeak  
+    - url: /xmeyers/static/maps/RalstonPeak.pdf
+      lbl: RalstonPeak
+
+- About the Maps: 
     - txt: |
         <p>These maps show Forest Service roads and hiking trails.</p>
         <p>Each map is a Geospatial PDF file, generated with <a href="https://caltopo.com">CalTopo</a>.</p>

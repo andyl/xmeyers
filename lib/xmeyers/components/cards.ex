@@ -12,7 +12,6 @@ defmodule Xmeyers.Components.Cards do
   end
 
   def showcard(assigns) do
-    IO.inspect(assigns)
     ~H"""
     <div class="relative border border-gray-300 rounded-lg shadow-sm space-x-3">
     <div class={"px-4 bg-#{@color}-100 border-gray-200 rounded-t-lg"}>
