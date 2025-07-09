@@ -5,12 +5,7 @@ defmodule Xmeyers.IndexPage do
 
   def template(assigns) do
     ~H"""
-    <div class="p-4 grid lg:grid-cols-3 sm:grid-cols-2 gap-4">
-    <%= for map <- @data["home"], {title, blocks} <- Map.to_list(map) do %>
-      <.showcard title={title} blocks={blocks} color="blue" />
-    <% end %>
-    </div>
+    <.cardpage datalist={@data["home"]} color="blue" />
     """
   end
-
 end
