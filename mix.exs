@@ -7,6 +7,7 @@ defmodule Xmeyers.MixProject do
       version: "0.1.0",
       elixir: "~> 1.17",
       start_permanent: Mix.env() == :prod,
+      compilers: Mix.compilers(),
       aliases: aliases(),
       deps: deps()
     ]
@@ -18,21 +19,18 @@ defmodule Xmeyers.MixProject do
     ]
   end
 
-  def aliases() do
-    [
-      build: ["tableau.build", "tailwind default --minify", "deploy"],
-      serve: ["tableau.server"]
-    ]
-  end
-
   defp deps do
     [
       {:tableau, "~> 0.25"},
-      {:nimble_publisher, "~> 1.1"},
-      {:phoenix_live_view, "~> 1.0"},
-      {:html_entities, "~> 0.5"},
-      {:floki, "~> 0.36"},
-      {:tailwind, "~> 0.3", runtime: Mix.env() == :dev}
+      {:tailwind, "~> 0.3", runtime: Mix.env() == :dev},
+      {:phoenix_live_view, "~> 1.0"}
+    ]
+  end
+
+  defp aliases do
+    [
+      build: ["tableau.build", "tailwind default --minify", "deploy"],
+      serve: ["tableau.server"]
     ]
   end
 end

@@ -1,0 +1,114 @@
+--- 
+- Weather: 
+    - url: https://www.google.com/search?q=weather+96150&oq=weather+96150&aqs=chrome.0.69i59j69i65.3019j0j4&sourceid=chrome&ie=UTF-8 
+      lbl: Google Weather 
+    - url: https://weather.com/weather/today/l/1adb8a728f658668a088d2c1e36af25d4044aeffac15e88f5e4aaf673357409f
+      lbl: Weather.com 
+    - url: https://forecast.weather.gov/MapClick.php?lon=-120.02357482910155&lat=38.849333913235455
+      lbl: NWS 
+  
+- Cams: 
+    - txt: <a href="/xmeyers/cams">Road Cams</a>
+    - url: https://www.sierraattahoe.com/live-cams/
+      lbl: SierraAtTahoe Webcams
+    - txt: | 
+        Fire: 
+        <a target="_blank" href="http://www.alertwildfire.org/tahoe/index.html?camera=Axis-Sierra&v=fd40734">
+          SierraAtTahoe
+        </a> | 
+        <a target="_blank" href="http://www.alertwildfire.org/tahoe/index.html?camera=Axis-HawkinsPeak&v=fd40734">
+          Hawkins
+        </a> | 
+        <a target="_blank" href="http://www.alertwildfire.org/tahoe/index.html?camera=Axis-Heavenly2&v=fd40734">
+          Heavenly
+        </a>
+      
+- Traffic: 
+    - url: https://www.google.com/maps/place/Meyers,+CA+96150/@38.8754622,-119.9998282,12.5z/data=!4m5!3m4!1s0x80998dd10cb46911:0x9a6aa0d06b4f0a29!8m2!3d38.8561066!4d-120.013057!5m1!1e1
+      lbl: Google Traffic Map 
+    - url: http://quickmap.dot.ca.gov/
+      lbl: Caltrans QuickMap
+    - url: https://oss.weathershare.org/?clat=38.85304&clng=-120.02144&zoom=13
+      lbl: Weathershare
+    - url: https://chainguy.com
+      lbl: Chainguy
+  
+- Fire: 
+    - url: https://inciweb.nwcg.gov
+      lbl: Inciweb
+    - url: https://eldoradocounty.maps.arcgis.com/apps/webappviewer/index.html?id=c995bf3816964e948d7d831d3ba938ff
+      lbl: Evacuation Orders 
+    - txt: | 
+        Maps: 
+        <a target="_blank" href="https://fire.airnow.gov/?lat=38.85&lng=-120.02&zoom=10">Airnow</a> |
+        <a target="_blank" href="https://www.windy.com/?38.764,-120.171,11">Windy</a> |
+        <a target="_blank" href="https://disasterresponse.maps.arcgis.com/apps/webappviewer/index.html?id=2ff1677111ae4018ac705fcce7c3312f">ESRI</a> | 
+        <a target="_blank" href="http://demo.openwfm.org/sj/">SJSU</a> | 
+        <a target="_blank" href="https://caltopo.com/map.html#ll=38.81403,-120.01808&z=11&b=oo&a=modis_g">CalTopo</a>
+    - txt: | 
+        Comms: 
+        <a target="_blank" href="https://m.broadcastify.com/listen/ctid/191">ElDorado</a> | 
+        <a target="_blank" href="https://m.broadcastify.com/listen/ctid/184">Alpine</a> 
+    - txt: |
+        Weather: 
+        <a target="_blank" href="https://www.youtube.com/channel/UCGjtp7iaeVmoVx-K7EGiYKA">HoltHanley</a> | 
+        <a target="_blank" href="https://weather.cod.edu/satrad/?parms=subregional-SanFran-natcolorfire-96-0-100-2&checked=map&colorbar=undefined">DuPage</a>
+  
+- Closures: 
+    - txt: | 
+        <style>
+        input {
+          background-color: white;
+          color: blue;
+          cursor: pointer;
+        }
+        
+        input:hover {
+          text-decoration: underline;
+        }
+        </style>
+        
+        <form action="https://roads.dot.ca.gov/roadscell.php" method="post" target="_blank">
+        <input name="roadnumber" type="hidden" value="89">
+        <input type="submit" value="Highway 89 (Truckee <> SLT <> Monitor Pass)" name="submit">
+        </form>
+        
+        <form action="https://roads.dot.ca.gov/roadscell.php" method="post" target="_blank">
+        <input name="roadnumber" type="hidden" value="50">
+        <input type="submit" value="Highway 50 (Placerville <> SLT <> Carson City)" name="submit">
+        </form>
+        
+        <form action="https://roads.dot.ca.gov/roadscell.php" method="post" target="_blank">
+        <input name="roadnumber" type="hidden" value="88">
+        <input type="submit" value="Highway 88 (Kirkwood <> Woodfords)" name="submit">
+        </form>
+        
+        <form action="https://roads.dot.ca.gov/roadscell.php" method="post" target="_blank">
+        <input name="roadnumber" type="hidden" value="4">
+        <input type="submit" value="Highway 4 (M'ville <> Ebbetts Pass)" name="submit">
+        </form>
+        
+        <form action="https://roads.dot.ca.gov/roadscell.php" method="post" target="_blank">
+        <input name="roadnumber" type="hidden" value="395">
+        <input type="submit" value="Highway 395 (Sierra Eastside)" name="submit">
+        </form>
+        
+        <form action="https://roads.dot.ca.gov/roadscell.php" method="post" target="_blank">
+        <input name="roadnumber" type="hidden" value="108">
+        <input type="submit" value="Highway 108 (Sonora Pass)" name="submit">
+        </form>
+        
+        <form action="https://roads.dot.ca.gov/roadscell.php" method="post" target="_blank">
+        <input name="roadnumber" type="hidden" value="120">
+        <input type="submit" value="Highway 120 (Tioga Pass)" name="submit">
+        </form>
+  
+- About: 
+    - txt: Weather, Fire and Road conditions for Meyers CA 
+    - url: https://en.wikipedia.org/wiki/Meyers,_California 
+      lbl: About Meyers 
+    - url: https://github.com/andyl/xmeyers
+      lbl: Website Source
+    - url: https://github.com/andyl/xmeyers/issues 
+      lbl: Feedback & Requests 
+
