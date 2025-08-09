@@ -16,6 +16,8 @@
       lbl: CharityValley 
     - url: /xmeyers/static/maps/MeadowLake.pdf
       lbl: MeadowLake
+    - url: /xmeyers/static/maps/ReynoldsPeak.pdf
+      lbl: ReynoldsPeak
 
 - Carson Pass:  
     - url: /xmeyers/static/maps/CarsonPass.pdf
