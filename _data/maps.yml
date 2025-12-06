@@ -80,6 +80,8 @@
       lbl: StevensPeak  
 
 - Kyburz: 
+    - url: /xmeyers/static/maps/IceHouse.pdf
+      lbl: IceHouse
     - url: /xmeyers/static/maps/LoonLake.pdf
       lbl: LoonLake
     - url: /xmeyers/static/maps/RobbsPeak.pdf
