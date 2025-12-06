@@ -80,6 +80,10 @@
       lbl: StevensPeak  
 
 - Kyburz: 
+    - url: /xmeyers/static/maps/LoonLake.pdf
+      lbl: LoonLake
+    - url: /xmeyers/static/maps/RobbsPeak.pdf
+      lbl: RobbsPeak
     - url: /xmeyers/static/maps/SilverforkRoad.pdf
       lbl: SilverforkRoad  
     - url: /xmeyers/static/maps/WrightsLake.pdf
