@@ -1,10 +1,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
-  <atom:link href="https://example.com/feed.xml" rel="self" type="application/rss+xml" />
+  <atom:link href="http://localhost:4999/feed.xml" rel="self" type="application/rss+xml" />
   <title>xmeyers</title>
-  <link>https://example.com</link>
+  <link>http://localhost:4999</link>
   <description>My beautiful website</description>
   <language>en-us</language>
-  <generator>Tableau v0.26.0</generator>
+  <generator>Tableau v0.28.0</generator>
   </channel>
 </rss>
