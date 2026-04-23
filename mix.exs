@@ -25,7 +25,6 @@ defmodule Xmeyers.MixProject do
       {:tailwind, "~> 0.4", runtime: Mix.env() == :dev},
       {:phoenix_live_view, "~> 1.1"},
       {:tidewave, "~> 0.5", only: :dev},
-      # {:bandit, "~> 1.0", only: :dev},
     ]
   end
 
