@@ -21,16 +21,19 @@ defmodule Xmeyers.MixProject do
 
   defp deps do
     [
-      {:tableau, "~> 0.2"},
+      {:tableau, "~> 0.30"},
       {:tailwind, "~> 0.4", runtime: Mix.env() == :dev},
-      {:phoenix_live_view, "~> 1.1"}
+      {:phoenix_live_view, "~> 1.1"},
+      {:tidewave, "~> 0.5", only: :dev},
+      # {:bandit, "~> 1.0", only: :dev},
     ]
   end
 
   defp aliases do
     [
       build: ["tableau.build", "tailwind default --minify", "deploy"],
-      serve: ["tableau.server"]
+      serve: ["tableau.server"],
+      tide:  "run --no-halt -e 'Agent.start(fn -> Bandit.start_link(plug: Tidewave, port: 4000) end)'"
     ]
   end
 end
