@@ -1,8 +1,6 @@
 # Project: Tableau Static Site
 
-A static website built with [Tableau](https://github.com/elixir-tools/tableau),
-Elixir's SSG. Generates plain HTML to `_site/` for deployment to Netlify /
-GitHub Pages / S3 / Cloudflare Pages.
+A static website built with [Tableau](https://github.com/elixir-tools/tableau), Elixir's SSG. Generates plain HTML to `_site/` for deployment to Netlify / GitHub Pages / S3 / Cloudflare Pages.
 
 ## Stack
 
@@ -38,7 +36,7 @@ GitHub Pages / S3 / Cloudflare Pages.
 |----------------------------------|----------------------------------------|
 | Dev server (live reload)         | `mix tableau.server`                   |
 | One-shot build                   | `mix tableau.build`                    |
-| Tidewave MCP (separate terminal) | `mix tidewave`                         |
+| Tidewave MCP (separate terminal) | `mix tide`                             |
 | Format                           | `mix format`                           |
 | Add a dep                        | `mix deps.get` after editing `mix.exs` |
 
