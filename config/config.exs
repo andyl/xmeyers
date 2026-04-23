@@ -8,8 +8,6 @@ config :tableau, :reloader,
   ]
 
 config :web_dev_utils, :reload_log, true
-# uncomment this if you use something like ngrok
-# config :web_dev_utils, :reload_url, "'wss://' + location.host + '/ws'"
 
 config :tailwind,
   version: "4.1.0",
@@ -21,7 +19,6 @@ config :tailwind,
   ]
 
 config :tableau, :assets, tailwind: {Tailwind, :install_and_run, [:default, ~w(--watch)]}
-
 
 config :tableau, :config,
   url: "http://localhost:4999",
