@@ -197,6 +197,9 @@
   .relative {
     position: relative;
   }
+  .static {
+    position: static;
+  }
   .my-2 {
     margin-block: calc(var(--spacing) * 2);
   }
