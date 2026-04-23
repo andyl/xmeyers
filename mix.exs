@@ -22,7 +22,7 @@ defmodule Xmeyers.MixProject do
   defp deps do
     [
       {:tableau, "~> 0.2"},
-      {:tailwind, "~> 0.3", runtime: Mix.env() == :dev},
+      {:tailwind, "~> 0.4", runtime: Mix.env() == :dev},
       {:phoenix_live_view, "~> 1.1"}
     ]
   end
