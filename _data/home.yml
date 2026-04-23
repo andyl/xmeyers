@@ -55,54 +55,23 @@
         <a target="_blank" href="https://weather.cod.edu/satrad/?parms=subregional-SanFran-natcolorfire-96-0-100-2&checked=map&colorbar=undefined">DuPage</a>
   
 - Closures: 
-    - txt: | 
-        <style>
-        input {
-          background-color: white;
-          color: blue;
-          cursor: pointer;
-        }
-        
-        input:hover {
-          text-decoration: underline;
-        }
-        </style>
-        
-        <form action="https://roads.dot.ca.gov/roadscell.php" method="post" target="_blank">
-        <input name="roadnumber" type="hidden" value="89">
-        <input type="submit" value="Highway 89 (Truckee <> SLT <> Monitor Pass)" name="submit">
-        </form>
-        
-        <form action="https://roads.dot.ca.gov/roadscell.php" method="post" target="_blank">
-        <input name="roadnumber" type="hidden" value="50">
-        <input type="submit" value="Highway 50 (Placerville <> SLT <> Carson City)" name="submit">
-        </form>
-        
-        <form action="https://roads.dot.ca.gov/roadscell.php" method="post" target="_blank">
-        <input name="roadnumber" type="hidden" value="88">
-        <input type="submit" value="Highway 88 (Kirkwood <> Woodfords)" name="submit">
-        </form>
-        
-        <form action="https://roads.dot.ca.gov/roadscell.php" method="post" target="_blank">
-        <input name="roadnumber" type="hidden" value="4">
-        <input type="submit" value="Highway 4 (M'ville <> Ebbetts Pass)" name="submit">
-        </form>
-        
-        <form action="https://roads.dot.ca.gov/roadscell.php" method="post" target="_blank">
-        <input name="roadnumber" type="hidden" value="395">
-        <input type="submit" value="Highway 395 (Sierra Eastside)" name="submit">
-        </form>
-        
-        <form action="https://roads.dot.ca.gov/roadscell.php" method="post" target="_blank">
-        <input name="roadnumber" type="hidden" value="108">
-        <input type="submit" value="Highway 108 (Sonora Pass)" name="submit">
-        </form>
-        
-        <form action="https://roads.dot.ca.gov/roadscell.php" method="post" target="_blank">
-        <input name="roadnumber" type="hidden" value="120">
-        <input type="submit" value="Highway 120 (Tioga Pass)" name="submit">
-        </form>
-  
+   - url: https://roads.dot.ca.gov/roadscell.php?roadnumber=89
+     lbl: Highway 89 (Truckee - SLT - Monitor Pass)
+   - url: https://roads.dot.ca.gov/roadscell.php?roadnumber=50
+     lbl: Highway 50 (Placerville - SLT - Carson City)
+   - url: https://roads.dot.ca.gov/roadscell.php?roadnumber=88
+     lbl: Highway 88 (K'wood - W'fords - Minden)
+   - url: https://roads.dot.ca.gov/roadscell.php?roadnumber=4
+     lbl: Highway 4 (M'ville - Ebbetts Pass)
+   - url: https://roads.dot.ca.gov/roadscell.php?roadnumber=395
+     lbl: Highway 395 (Sierra Eastside)
+   - url: https://roads.dot.ca.gov/roadscell.php?roadnumber=270
+     lbl: Highway 270 (Bodie)
+   - url: https://roads.dot.ca.gov/roadscell.php?roadnumber=108
+     lbl: Highway 108 (Sonora Pass)
+   - url: https://roads.dot.ca.gov/roadscell.php?roadnumber=120
+     lbl: Highway 120 (Tioga Pass)
+
 - About: 
     - txt: Weather, Fire and Road conditions for Meyers CA 
     - url: https://en.wikipedia.org/wiki/Meyers,_California 

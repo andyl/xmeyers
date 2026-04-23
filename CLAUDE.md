@@ -1,6 +1,8 @@
 # Project: Tableau Static Site
 
-A static website built with [Tableau](https://github.com/elixir-tools/tableau), Elixir's SSG. Generates plain HTML to `_site/` for deployment to Netlify / GitHub Pages / S3 / Cloudflare Pages.
+A static website built with [Tableau](https://github.com/elixir-tools/tableau),
+Elixir's SSG. Generates plain HTML to `_site/` for deployment to Netlify /
+GitHub Pages / S3 / Cloudflare Pages.
 
 ## Stack
 

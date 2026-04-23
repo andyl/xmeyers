@@ -38,8 +38,13 @@ defmodule Xmeyers.Components.Cards do
   end
 
   def txt_block(assigns) do
+    # class="px-4 py-1"
     ~H"""
-    <p class="px-4 py-1">{@txt}</p>
+    <p
+      class="block px-4 py-3 min-h-11 active:bg-gray-200 border-b border-gray-100 last:border-b-0 lg:py-1 lg:min-h-0 lg:hover:bg-transparent lg:active:bg-transparent lg:border-b-0"
+    >
+      {@txt}
+    </p>
     """
   end
 
