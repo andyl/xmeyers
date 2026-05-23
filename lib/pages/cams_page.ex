@@ -49,7 +49,7 @@ defmodule Xmeyers.CamsPage do
           <iframe
             class="cctv-webcam"
             frameborder="0"
-            src="https://cwwp2.dot.ca.gov/vm/loc/d3/pioneertrailed50eb1.htm"
+            src="https://cwwp2.dot.ca.gov/vm/loc/d3/pioneertrailed50eb2.htm"
           >
           </iframe>
         </div>
@@ -57,7 +57,7 @@ defmodule Xmeyers.CamsPage do
           <iframe
             class="cctv-webcam"
             frameborder="0"
-            src="https://cwwp2.dot.ca.gov/vm/loc/d3/pioneertrailed50eb2.htm"
+            src="https://cwwp2.dot.ca.gov/vm/loc/d3/pioneertrailed50eb1.htm"
           >
           </iframe>
         </div>
