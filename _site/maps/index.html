@@ -1,10 +1,10 @@
-<!-- <Xmeyers.RootLayout.template> lib/layouts/root_layout.ex:6 (xmeyers) --><!DOCTYPE html>
-<html data-phx-loc="8">
-  <head data-phx-loc="9">
-    <title data-phx-loc="10">Xmeyers</title>
-    <link data-phx-loc="11" rel="icon" href="/xmeyers/static/img/favicon.ico" type="image/x-icon">
-    <link data-phx-loc="12" rel="stylesheet" type="text/css" href="/xmeyers/css/site.css">
-    <style data-phx-loc="13">
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Xmeyers</title>
+    <link rel="icon" href="/xmeyers/static/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="/xmeyers/css/site.css">
+    <style>
       a { color: blue; text-decoration: none; font-weight: normal; }
       a:hover { text-decoration: underline; }
       ul, ol { list-style-type: none; }
@@ -12,589 +12,541 @@
       .cctv-webcam {width: 320px;height: 400px;background-color: #ffffff;}
     </style>
     
+      <script defer data-domain="xmeyers" src="https://plausible.io/js/script.js">
+      </script>
+    
   </head>
 
-  <body data-phx-loc="26">
-    <div data-phx-loc="27" class="bg-gray-100 md:flex md:items-center md:justify-between">
-      <div data-phx-loc="28" class="flex-1 min-w-0">
-        <div data-phx-loc="29" class="py-2 px-4 text-2xl text-gray-900 leading-7 sm:text-3xl sm:truncate">
-          <!-- @caller lib/layouts/root_layout.ex:30 (xmeyers) -->
-  <a data-phx-loc="71" href="/xmeyers/" class="font-normal hover:text-blue" style="color: black;"><!-- @caller lib/layouts/root_layout.ex:71 (xmeyers) --><!-- <Xmeyers.RootLayout.logo> lib/layouts/root_layout.ex:59 (xmeyers) --><img data-phx-loc="60" class="inline align-middle" style="padding-bottom: 3px;" src="/xmeyers/static/img/mountain-15-32.png"> Xmeyers
-<!-- </Xmeyers.RootLayout.logo> --></a>
+  <body>
+    <div class="bg-gray-100 md:flex md:items-center md:justify-between">
+      <div class="flex-1 min-w-0">
+        <div class="py-2 px-4 text-2xl text-gray-900 leading-7 sm:text-3xl sm:truncate">
+          
+  <a href="/xmeyers/" class="font-normal hover:text-blue" style="color: black;"><img class="inline align-middle" style="padding-bottom: 3px;" src="/xmeyers/static/img/mountain-15-32.png"> Xmeyers
+</a>
 
-          <!-- @caller lib/layouts/root_layout.ex:31 (xmeyers) --><!-- <Xmeyers.RootLayout.navbar> lib/layouts/root_layout.ex:49 (xmeyers) --><div data-phx-loc="50" class="inline text-xs pl-8">
-  <!-- @caller lib/layouts/root_layout.ex:51 (xmeyers) -->
-  <a data-phx-loc="81" href="/xmeyers/">Home</a>
+          <div class="inline text-xs pl-8">
+  
+  <a href="/xmeyers/">Home</a>
  |
-  <!-- @caller lib/layouts/root_layout.ex:52 (xmeyers) -->
-  <a data-phx-loc="81" href="/xmeyers/cams">Cams</a>
+  
+  <a href="/xmeyers/cams">Cams</a>
  |
-  <!-- @caller lib/layouts/root_layout.ex:53 (xmeyers) -->
-  <bold data-phx-loc="83">Maps</bold>
+  
+  <bold>Maps</bold>
 
-</div><!-- </Xmeyers.RootLayout.navbar> -->
+</div>
         </div>
       </div>
-      <div data-phx-loc="34" class="flex mt-4 md:mt-0 md:ml-4"></div>
+      <div class="flex mt-4 md:mt-0 md:ml-4"></div>
     </div>
-    <!-- <Xmeyers.MapsPage.template> lib/pages/maps_page.ex:7 (xmeyers) --><!-- @caller lib/pages/maps_page.ex:8 (xmeyers) --><!-- <Xmeyers.Components.Cards.cardpage> lib/components/cards.ex:5 (xmeyers) --><div data-phx-loc="6" class="p-4 grid lg:grid-cols-3 sm:grid-cols-2 gap-4">
+    <div class="p-4 grid lg:grid-cols-3 sm:grid-cols-2 gap-4">
 
-  <!-- @caller lib/components/cards.ex:8 (xmeyers) --><!-- <Xmeyers.Components.Cards.showcard> lib/components/cards.ex:15 (xmeyers) --><div data-phx-loc="16" class="relative border border-gray-300 rounded-lg shadow-sm">
-  <div data-phx-loc="17" class="px-4 py-2 bg-green-100 border-gray-200 rounded-t-lg font-medium">
+  <div class="relative border border-gray-300 rounded-lg shadow-sm">
+  <div class="px-4 py-2 bg-green-100 border-gray-200 rounded-t-lg font-medium">
     American River Canyon
   </div>
-  <div data-phx-loc="20" class="py-2 text-base lg:text-sm text-gray-600">
+  <div class="py-2 text-base lg:text-sm text-gray-600">
     
-      <!-- @caller lib/components/cards.ex:22 (xmeyers) -->
-    <!-- @caller lib/components/cards.ex:35 (xmeyers) --><!-- <Xmeyers.Components.Cards.url_block> lib/components/cards.ex:52 (xmeyers) --><a data-phx-loc="53" target="_blank" href="/xmeyers/static/maps/PyramidPeak.pdf" class="block px-4 py-3 min-h-11 text-blue-600 hover:bg-gray-100 active:bg-gray-200 border-b border-gray-100 last:border-b-0 lg:py-1 lg:min-h-0 lg:hover:bg-transparent lg:active:bg-transparent lg:border-b-0">
+      
+    <a target="_blank" href="/xmeyers/static/maps/PyramidPeak.pdf" class="block px-4 py-3 min-h-11 text-blue-600 hover:bg-gray-100 active:bg-gray-200 border-b border-gray-100 last:border-b-0 lg:py-1 lg:min-h-0 lg:hover:bg-transparent lg:active:bg-transparent lg:border-b-0">
   PyramidPeak
-</a><!-- </Xmeyers.Components.Cards.url_block> -->
+</a>
 
     
-      <!-- @caller lib/components/cards.ex:22 (xmeyers) -->
-    <!-- @caller lib/components/cards.ex:35 (xmeyers) --><!-- <Xmeyers.Components.Cards.url_block> lib/components/cards.ex:52 (xmeyers) --><a data-phx-loc="53" target="_blank" href="/xmeyers/static/maps/RalstonPeak.pdf" class="block px-4 py-3 min-h-11 text-blue-600 hover:bg-gray-100 active:bg-gray-200 border-b border-gray-100 last:border-b-0 lg:py-1 lg:min-h-0 lg:hover:bg-transparent lg:active:bg-transparent lg:border-b-0">
+      
+    <a target="_blank" href="/xmeyers/static/maps/RalstonPeak.pdf" class="block px-4 py-3 min-h-11 text-blue-600 hover:bg-gray-100 active:bg-gray-200 border-b border-gray-100 last:border-b-0 lg:py-1 lg:min-h-0 lg:hover:bg-transparent lg:active:bg-transparent lg:border-b-0">
   RalstonPeak
-</a><!-- </Xmeyers.Components.Cards.url_block> -->
+</a>
 
     
   </div>
-</div><!-- </Xmeyers.Components.Cards.showcard> -->
+</div>
 
-  <!-- @caller lib/components/cards.ex:8 (xmeyers) --><!-- <Xmeyers.Components.Cards.showcard> lib/components/cards.ex:15 (xmeyers) --><div data-phx-loc="16" class="relative border border-gray-300 rounded-lg shadow-sm">
-  <div data-phx-loc="17" class="px-4 py-2 bg-green-100 border-gray-200 rounded-t-lg font-medium">
+  <div class="relative border border-gray-300 rounded-lg shadow-sm">
+  <div class="px-4 py-2 bg-green-100 border-gray-200 rounded-t-lg font-medium">
     Bishop
   </div>
-  <div data-phx-loc="20" class="py-2 text-base lg:text-sm text-gray-600">
+  <div class="py-2 text-base lg:text-sm text-gray-600">
     
-      <!-- @caller lib/components/cards.ex:22 (xmeyers) -->
-    <!-- @caller lib/components/cards.ex:35 (xmeyers) --><!-- <Xmeyers.Components.Cards.url_block> lib/components/cards.ex:52 (xmeyers) --><a data-phx-loc="53" target="_blank" href="/xmeyers/static/maps/ButtermilkCamp.pdf" class="block px-4 py-3 min-h-11 text-blue-600 hover:bg-gray-100 active:bg-gray-200 border-b border-gray-100 last:border-b-0 lg:py-1 lg:min-h-0 lg:hover:bg-transparent lg:active:bg-transparent lg:border-b-0">
+      
+    <a target="_blank" href="/xmeyers/static/maps/ButtermilkCamp.pdf" class="block px-4 py-3 min-h-11 text-blue-600 hover:bg-gray-100 active:bg-gray-200 border-b border-gray-100 last:border-b-0 lg:py-1 lg:min-h-0 lg:hover:bg-transparent lg:active:bg-transparent lg:border-b-0">
   ButtermilkCamp
-</a><!-- </Xmeyers.Components.Cards.url_block> -->
+</a>
 
     
-      <!-- @caller lib/components/cards.ex:22 (xmeyers) -->
-    <!-- @caller lib/components/cards.ex:35 (xmeyers) --><!-- <Xmeyers.Components.Cards.url_block> lib/components/cards.ex:52 (xmeyers) --><a data-phx-loc="53" target="_blank" href="/xmeyers/static/maps/ButtermilkCircuit.pdf" class="block px-4 py-3 min-h-11 text-blue-600 hover:bg-gray-100 active:bg-gray-200 border-b border-gray-100 last:border-b-0 lg:py-1 lg:min-h-0 lg:hover:bg-transparent lg:active:bg-transparent lg:border-b-0">
+      
+    <a target="_blank" href="/xmeyers/static/maps/ButtermilkCircuit.pdf" class="block px-4 py-3 min-h-11 text-blue-600 hover:bg-gray-100 active:bg-gray-200 border-b border-gray-100 last:border-b-0 lg:py-1 lg:min-h-0 lg:hover:bg-transparent lg:active:bg-transparent lg:border-b-0">
   ButtermilkCircuit
-</a><!-- </Xmeyers.Components.Cards.url_block> -->
+</a>
 
     
   </div>
-</div><!-- </Xmeyers.Components.Cards.showcard> -->
+</div>
 
-  <!-- @caller lib/components/cards.ex:8 (xmeyers) --><!-- <Xmeyers.Components.Cards.showcard> lib/components/cards.ex:15 (xmeyers) --><div data-phx-loc="16" class="relative border border-gray-300 rounded-lg shadow-sm">
-  <div data-phx-loc="17" class="px-4 py-2 bg-green-100 border-gray-200 rounded-t-lg font-medium">
+  <div class="relative border border-gray-300 rounded-lg shadow-sm">
+  <div class="px-4 py-2 bg-green-100 border-gray-200 rounded-t-lg font-medium">
     Blue Lakes
   </div>
-  <div data-phx-loc="20" class="py-2 text-base lg:text-sm text-gray-600">
+  <div class="py-2 text-base lg:text-sm text-gray-600">
     
-      <!-- @caller lib/components/cards.ex:22 (xmeyers) -->
-    <!-- @caller lib/components/cards.ex:35 (xmeyers) --><!-- <Xmeyers.Components.Cards.url_block> lib/components/cards.ex:52 (xmeyers) --><a data-phx-loc="53" target="_blank" href="/xmeyers/static/maps/CharityValley.pdf" class="block px-4 py-3 min-h-11 text-blue-600 hover:bg-gray-100 active:bg-gray-200 border-b border-gray-100 last:border-b-0 lg:py-1 lg:min-h-0 lg:hover:bg-transparent lg:active:bg-transparent lg:border-b-0">
+      
+    <a target="_blank" href="/xmeyers/static/maps/CharityValley.pdf" class="block px-4 py-3 min-h-11 text-blue-600 hover:bg-gray-100 active:bg-gray-200 border-b border-gray-100 last:border-b-0 lg:py-1 lg:min-h-0 lg:hover:bg-transparent lg:active:bg-transparent lg:border-b-0">
   CharityValley
-</a><!-- </Xmeyers.Components.Cards.url_block> -->
+</a>
 
     
-      <!-- @caller lib/components/cards.ex:22 (xmeyers) -->
-    <!-- @caller lib/components/cards.ex:35 (xmeyers) --><!-- <Xmeyers.Components.Cards.url_block> lib/components/cards.ex:52 (xmeyers) --><a data-phx-loc="53" target="_blank" href="/xmeyers/static/maps/MeadowLake.pdf" class="block px-4 py-3 min-h-11 text-blue-600 hover:bg-gray-100 active:bg-gray-200 border-b border-gray-100 last:border-b-0 lg:py-1 lg:min-h-0 lg:hover:bg-transparent lg:active:bg-transparent lg:border-b-0">
+      
+    <a target="_blank" href="/xmeyers/static/maps/MeadowLake.pdf" class="block px-4 py-3 min-h-11 text-blue-600 hover:bg-gray-100 active:bg-gray-200 border-b border-gray-100 last:border-b-0 lg:py-1 lg:min-h-0 lg:hover:bg-transparent lg:active:bg-transparent lg:border-b-0">
   MeadowLake
-</a><!-- </Xmeyers.Components.Cards.url_block> -->
+</a>
 
     
-      <!-- @caller lib/components/cards.ex:22 (xmeyers) -->
-    <!-- @caller lib/components/cards.ex:35 (xmeyers) --><!-- <Xmeyers.Components.Cards.url_block> lib/components/cards.ex:52 (xmeyers) --><a data-phx-loc="53" target="_blank" href="/xmeyers/static/maps/ReynoldsPeak.pdf" class="block px-4 py-3 min-h-11 text-blue-600 hover:bg-gray-100 active:bg-gray-200 border-b border-gray-100 last:border-b-0 lg:py-1 lg:min-h-0 lg:hover:bg-transparent lg:active:bg-transparent lg:border-b-0">
+      
+    <a target="_blank" href="/xmeyers/static/maps/ReynoldsPeak.pdf" class="block px-4 py-3 min-h-11 text-blue-600 hover:bg-gray-100 active:bg-gray-200 border-b border-gray-100 last:border-b-0 lg:py-1 lg:min-h-0 lg:hover:bg-transparent lg:active:bg-transparent lg:border-b-0">
   ReynoldsPeak
-</a><!-- </Xmeyers.Components.Cards.url_block> -->
+</a>
 
     
   </div>
-</div><!-- </Xmeyers.Components.Cards.showcard> -->
+</div>
 
-  <!-- @caller lib/components/cards.ex:8 (xmeyers) --><!-- <Xmeyers.Components.Cards.showcard> lib/components/cards.ex:15 (xmeyers) --><div data-phx-loc="16" class="relative border border-gray-300 rounded-lg shadow-sm">
-  <div data-phx-loc="17" class="px-4 py-2 bg-green-100 border-gray-200 rounded-t-lg font-medium">
+  <div class="relative border border-gray-300 rounded-lg shadow-sm">
+  <div class="px-4 py-2 bg-green-100 border-gray-200 rounded-t-lg font-medium">
     Carson Pass
   </div>
-  <div data-phx-loc="20" class="py-2 text-base lg:text-sm text-gray-600">
+  <div class="py-2 text-base lg:text-sm text-gray-600">
     
-      <!-- @caller lib/components/cards.ex:22 (xmeyers) -->
-    <!-- @caller lib/components/cards.ex:35 (xmeyers) --><!-- <Xmeyers.Components.Cards.url_block> lib/components/cards.ex:52 (xmeyers) --><a data-phx-loc="53" target="_blank" href="/xmeyers/static/maps/CarsonPass.pdf" class="block px-4 py-3 min-h-11 text-blue-600 hover:bg-gray-100 active:bg-gray-200 border-b border-gray-100 last:border-b-0 lg:py-1 lg:min-h-0 lg:hover:bg-transparent lg:active:bg-transparent lg:border-b-0">
+      
+    <a target="_blank" href="/xmeyers/static/maps/CarsonPass.pdf" class="block px-4 py-3 min-h-11 text-blue-600 hover:bg-gray-100 active:bg-gray-200 border-b border-gray-100 last:border-b-0 lg:py-1 lg:min-h-0 lg:hover:bg-transparent lg:active:bg-transparent lg:border-b-0">
   CarsonPass
-</a><!-- </Xmeyers.Components.Cards.url_block> -->
+</a>
 
     
-      <!-- @caller lib/components/cards.ex:22 (xmeyers) -->
-    <!-- @caller lib/components/cards.ex:35 (xmeyers) --><!-- <Xmeyers.Components.Cards.url_block> lib/components/cards.ex:52 (xmeyers) --><a data-phx-loc="53" target="_blank" href="/xmeyers/static/maps/Forestdale.pdf" class="block px-4 py-3 min-h-11 text-blue-600 hover:bg-gray-100 active:bg-gray-200 border-b border-gray-100 last:border-b-0 lg:py-1 lg:min-h-0 lg:hover:bg-transparent lg:active:bg-transparent lg:border-b-0">
+      
+    <a target="_blank" href="/xmeyers/static/maps/Forestdale.pdf" class="block px-4 py-3 min-h-11 text-blue-600 hover:bg-gray-100 active:bg-gray-200 border-b border-gray-100 last:border-b-0 lg:py-1 lg:min-h-0 lg:hover:bg-transparent lg:active:bg-transparent lg:border-b-0">
   Forestdale
-</a><!-- </Xmeyers.Components.Cards.url_block> -->
+</a>
 
     
-      <!-- @caller lib/components/cards.ex:22 (xmeyers) -->
-    <!-- @caller lib/components/cards.ex:35 (xmeyers) --><!-- <Xmeyers.Components.Cards.url_block> lib/components/cards.ex:52 (xmeyers) --><a data-phx-loc="53" target="_blank" href="/xmeyers/static/maps/RedLakePeak.pdf" class="block px-4 py-3 min-h-11 text-blue-600 hover:bg-gray-100 active:bg-gray-200 border-b border-gray-100 last:border-b-0 lg:py-1 lg:min-h-0 lg:hover:bg-transparent lg:active:bg-transparent lg:border-b-0">
+      
+    <a target="_blank" href="/xmeyers/static/maps/RedLakePeak.pdf" class="block px-4 py-3 min-h-11 text-blue-600 hover:bg-gray-100 active:bg-gray-200 border-b border-gray-100 last:border-b-0 lg:py-1 lg:min-h-0 lg:hover:bg-transparent lg:active:bg-transparent lg:border-b-0">
   RedLakePeak
-</a><!-- </Xmeyers.Components.Cards.url_block> -->
+</a>
 
     
-      <!-- @caller lib/components/cards.ex:22 (xmeyers) -->
-    <!-- @caller lib/components/cards.ex:35 (xmeyers) --><!-- <Xmeyers.Components.Cards.url_block> lib/components/cards.ex:52 (xmeyers) --><a data-phx-loc="53" target="_blank" href="/xmeyers/static/maps/RoundLakeCarson.pdf" class="block px-4 py-3 min-h-11 text-blue-600 hover:bg-gray-100 active:bg-gray-200 border-b border-gray-100 last:border-b-0 lg:py-1 lg:min-h-0 lg:hover:bg-transparent lg:active:bg-transparent lg:border-b-0">
+      
+    <a target="_blank" href="/xmeyers/static/maps/RoundLakeCarson.pdf" class="block px-4 py-3 min-h-11 text-blue-600 hover:bg-gray-100 active:bg-gray-200 border-b border-gray-100 last:border-b-0 lg:py-1 lg:min-h-0 lg:hover:bg-transparent lg:active:bg-transparent lg:border-b-0">
   RoundLakeCarson
-</a><!-- </Xmeyers.Components.Cards.url_block> -->
+</a>
 
     
-      <!-- @caller lib/components/cards.ex:22 (xmeyers) -->
-    <!-- @caller lib/components/cards.ex:35 (xmeyers) --><!-- <Xmeyers.Components.Cards.url_block> lib/components/cards.ex:52 (xmeyers) --><a data-phx-loc="53" target="_blank" href="/xmeyers/static/maps/RoundTop.pdf" class="block px-4 py-3 min-h-11 text-blue-600 hover:bg-gray-100 active:bg-gray-200 border-b border-gray-100 last:border-b-0 lg:py-1 lg:min-h-0 lg:hover:bg-transparent lg:active:bg-transparent lg:border-b-0">
+      
+    <a target="_blank" href="/xmeyers/static/maps/RoundTop.pdf" class="block px-4 py-3 min-h-11 text-blue-600 hover:bg-gray-100 active:bg-gray-200 border-b border-gray-100 last:border-b-0 lg:py-1 lg:min-h-0 lg:hover:bg-transparent lg:active:bg-transparent lg:border-b-0">
   RoundTop
-</a><!-- </Xmeyers.Components.Cards.url_block> -->
+</a>
 
     
-      <!-- @caller lib/components/cards.ex:22 (xmeyers) -->
-    <!-- @caller lib/components/cards.ex:35 (xmeyers) --><!-- <Xmeyers.Components.Cards.url_block> lib/components/cards.ex:52 (xmeyers) --><a data-phx-loc="53" target="_blank" href="/xmeyers/static/maps/SchneiderCowCamp.pdf" class="block px-4 py-3 min-h-11 text-blue-600 hover:bg-gray-100 active:bg-gray-200 border-b border-gray-100 last:border-b-0 lg:py-1 lg:min-h-0 lg:hover:bg-transparent lg:active:bg-transparent lg:border-b-0">
+      
+    <a target="_blank" href="/xmeyers/static/maps/SchneiderCowCamp.pdf" class="block px-4 py-3 min-h-11 text-blue-600 hover:bg-gray-100 active:bg-gray-200 border-b border-gray-100 last:border-b-0 lg:py-1 lg:min-h-0 lg:hover:bg-transparent lg:active:bg-transparent lg:border-b-0">
   SchneiderCowCamp
-</a><!-- </Xmeyers.Components.Cards.url_block> -->
+</a>
 
     
   </div>
-</div><!-- </Xmeyers.Components.Cards.showcard> -->
+</div>
 
-  <!-- @caller lib/components/cards.ex:8 (xmeyers) --><!-- <Xmeyers.Components.Cards.showcard> lib/components/cards.ex:15 (xmeyers) --><div data-phx-loc="16" class="relative border border-gray-300 rounded-lg shadow-sm">
-  <div data-phx-loc="17" class="px-4 py-2 bg-green-100 border-gray-200 rounded-t-lg font-medium">
+  <div class="relative border border-gray-300 rounded-lg shadow-sm">
+  <div class="px-4 py-2 bg-green-100 border-gray-200 rounded-t-lg font-medium">
     Ebbetts Pass
   </div>
-  <div data-phx-loc="20" class="py-2 text-base lg:text-sm text-gray-600">
+  <div class="py-2 text-base lg:text-sm text-gray-600">
     
-      <!-- @caller lib/components/cards.ex:22 (xmeyers) -->
-    <!-- @caller lib/components/cards.ex:35 (xmeyers) --><!-- <Xmeyers.Components.Cards.url_block> lib/components/cards.ex:52 (xmeyers) --><a data-phx-loc="53" target="_blank" href="/xmeyers/static/maps/HighlandLakes.pdf" class="block px-4 py-3 min-h-11 text-blue-600 hover:bg-gray-100 active:bg-gray-200 border-b border-gray-100 last:border-b-0 lg:py-1 lg:min-h-0 lg:hover:bg-transparent lg:active:bg-transparent lg:border-b-0">
+      
+    <a target="_blank" href="/xmeyers/static/maps/HighlandLakes.pdf" class="block px-4 py-3 min-h-11 text-blue-600 hover:bg-gray-100 active:bg-gray-200 border-b border-gray-100 last:border-b-0 lg:py-1 lg:min-h-0 lg:hover:bg-transparent lg:active:bg-transparent lg:border-b-0">
   HighlandLakes
-</a><!-- </Xmeyers.Components.Cards.url_block> -->
+</a>
 
     
-      <!-- @caller lib/components/cards.ex:22 (xmeyers) -->
-    <!-- @caller lib/components/cards.ex:35 (xmeyers) --><!-- <Xmeyers.Components.Cards.url_block> lib/components/cards.ex:52 (xmeyers) --><a data-phx-loc="53" target="_blank" href="/xmeyers/static/maps/WolfCreek.pdf" class="block px-4 py-3 min-h-11 text-blue-600 hover:bg-gray-100 active:bg-gray-200 border-b border-gray-100 last:border-b-0 lg:py-1 lg:min-h-0 lg:hover:bg-transparent lg:active:bg-transparent lg:border-b-0">
+      
+    <a target="_blank" href="/xmeyers/static/maps/WolfCreek.pdf" class="block px-4 py-3 min-h-11 text-blue-600 hover:bg-gray-100 active:bg-gray-200 border-b border-gray-100 last:border-b-0 lg:py-1 lg:min-h-0 lg:hover:bg-transparent lg:active:bg-transparent lg:border-b-0">
   WolfCreek
-</a><!-- </Xmeyers.Components.Cards.url_block> -->
+</a>
 
     
   </div>
-</div><!-- </Xmeyers.Components.Cards.showcard> -->
+</div>
 
-  <!-- @caller lib/components/cards.ex:8 (xmeyers) --><!-- <Xmeyers.Components.Cards.showcard> lib/components/cards.ex:15 (xmeyers) --><div data-phx-loc="16" class="relative border border-gray-300 rounded-lg shadow-sm">
-  <div data-phx-loc="17" class="px-4 py-2 bg-green-100 border-gray-200 rounded-t-lg font-medium">
+  <div class="relative border border-gray-300 rounded-lg shadow-sm">
+  <div class="px-4 py-2 bg-green-100 border-gray-200 rounded-t-lg font-medium">
     Echo Lake
   </div>
-  <div data-phx-loc="20" class="py-2 text-base lg:text-sm text-gray-600">
+  <div class="py-2 text-base lg:text-sm text-gray-600">
     
-      <!-- @caller lib/components/cards.ex:22 (xmeyers) -->
-    <!-- @caller lib/components/cards.ex:35 (xmeyers) --><!-- <Xmeyers.Components.Cards.url_block> lib/components/cards.ex:52 (xmeyers) --><a data-phx-loc="53" target="_blank" href="/xmeyers/static/maps/AnoraLakes.pdf" class="block px-4 py-3 min-h-11 text-blue-600 hover:bg-gray-100 active:bg-gray-200 border-b border-gray-100 last:border-b-0 lg:py-1 lg:min-h-0 lg:hover:bg-transparent lg:active:bg-transparent lg:border-b-0">
+      
+    <a target="_blank" href="/xmeyers/static/maps/AnoraLakes.pdf" class="block px-4 py-3 min-h-11 text-blue-600 hover:bg-gray-100 active:bg-gray-200 border-b border-gray-100 last:border-b-0 lg:py-1 lg:min-h-0 lg:hover:bg-transparent lg:active:bg-transparent lg:border-b-0">
   AnoraLakes
-</a><!-- </Xmeyers.Components.Cards.url_block> -->
+</a>
 
     
-      <!-- @caller lib/components/cards.ex:22 (xmeyers) -->
-    <!-- @caller lib/components/cards.ex:35 (xmeyers) --><!-- <Xmeyers.Components.Cards.url_block> lib/components/cards.ex:52 (xmeyers) --><a data-phx-loc="53" target="_blank" href="/xmeyers/static/maps/AngoraPeak.pdf" class="block px-4 py-3 min-h-11 text-blue-600 hover:bg-gray-100 active:bg-gray-200 border-b border-gray-100 last:border-b-0 lg:py-1 lg:min-h-0 lg:hover:bg-transparent lg:active:bg-transparent lg:border-b-0">
+      
+    <a target="_blank" href="/xmeyers/static/maps/AngoraPeak.pdf" class="block px-4 py-3 min-h-11 text-blue-600 hover:bg-gray-100 active:bg-gray-200 border-b border-gray-100 last:border-b-0 lg:py-1 lg:min-h-0 lg:hover:bg-transparent lg:active:bg-transparent lg:border-b-0">
   AngoraPeak
-</a><!-- </Xmeyers.Components.Cards.url_block> -->
+</a>
 
     
-      <!-- @caller lib/components/cards.ex:22 (xmeyers) -->
-    <!-- @caller lib/components/cards.ex:35 (xmeyers) --><!-- <Xmeyers.Components.Cards.url_block> lib/components/cards.ex:52 (xmeyers) --><a data-phx-loc="53" target="_blank" href="/xmeyers/static/maps/EchoLakes.pdf" class="block px-4 py-3 min-h-11 text-blue-600 hover:bg-gray-100 active:bg-gray-200 border-b border-gray-100 last:border-b-0 lg:py-1 lg:min-h-0 lg:hover:bg-transparent lg:active:bg-transparent lg:border-b-0">
+      
+    <a target="_blank" href="/xmeyers/static/maps/EchoLakes.pdf" class="block px-4 py-3 min-h-11 text-blue-600 hover:bg-gray-100 active:bg-gray-200 border-b border-gray-100 last:border-b-0 lg:py-1 lg:min-h-0 lg:hover:bg-transparent lg:active:bg-transparent lg:border-b-0">
   EchoLakes
-</a><!-- </Xmeyers.Components.Cards.url_block> -->
+</a>
 
     
-      <!-- @caller lib/components/cards.ex:22 (xmeyers) -->
-    <!-- @caller lib/components/cards.ex:35 (xmeyers) --><!-- <Xmeyers.Components.Cards.url_block> lib/components/cards.ex:52 (xmeyers) --><a data-phx-loc="53" target="_blank" href="/xmeyers/static/maps/EchoBowl.pdf" class="block px-4 py-3 min-h-11 text-blue-600 hover:bg-gray-100 active:bg-gray-200 border-b border-gray-100 last:border-b-0 lg:py-1 lg:min-h-0 lg:hover:bg-transparent lg:active:bg-transparent lg:border-b-0">
+      
+    <a target="_blank" href="/xmeyers/static/maps/EchoBowl.pdf" class="block px-4 py-3 min-h-11 text-blue-600 hover:bg-gray-100 active:bg-gray-200 border-b border-gray-100 last:border-b-0 lg:py-1 lg:min-h-0 lg:hover:bg-transparent lg:active:bg-transparent lg:border-b-0">
   EchoBowl
-</a><!-- </Xmeyers.Components.Cards.url_block> -->
+</a>
 
     
-      <!-- @caller lib/components/cards.ex:22 (xmeyers) -->
-    <!-- @caller lib/components/cards.ex:35 (xmeyers) --><!-- <Xmeyers.Components.Cards.url_block> lib/components/cards.ex:52 (xmeyers) --><a data-phx-loc="53" target="_blank" href="/xmeyers/static/maps/FlagpolePeak.pdf" class="block px-4 py-3 min-h-11 text-blue-600 hover:bg-gray-100 active:bg-gray-200 border-b border-gray-100 last:border-b-0 lg:py-1 lg:min-h-0 lg:hover:bg-transparent lg:active:bg-transparent lg:border-b-0">
+      
+    <a target="_blank" href="/xmeyers/static/maps/FlagpolePeak.pdf" class="block px-4 py-3 min-h-11 text-blue-600 hover:bg-gray-100 active:bg-gray-200 border-b border-gray-100 last:border-b-0 lg:py-1 lg:min-h-0 lg:hover:bg-transparent lg:active:bg-transparent lg:border-b-0">
   FlagpolePeak
-</a><!-- </Xmeyers.Components.Cards.url_block> -->
+</a>
 
     
   </div>
-</div><!-- </Xmeyers.Components.Cards.showcard> -->
+</div>
 
-  <!-- @caller lib/components/cards.ex:8 (xmeyers) --><!-- <Xmeyers.Components.Cards.showcard> lib/components/cards.ex:15 (xmeyers) --><div data-phx-loc="16" class="relative border border-gray-300 rounded-lg shadow-sm">
-  <div data-phx-loc="17" class="px-4 py-2 bg-green-100 border-gray-200 rounded-t-lg font-medium">
+  <div class="relative border border-gray-300 rounded-lg shadow-sm">
+  <div class="px-4 py-2 bg-green-100 border-gray-200 rounded-t-lg font-medium">
     Echo Summit
   </div>
-  <div data-phx-loc="20" class="py-2 text-base lg:text-sm text-gray-600">
+  <div class="py-2 text-base lg:text-sm text-gray-600">
     
-      <!-- @caller lib/components/cards.ex:22 (xmeyers) -->
-    <!-- @caller lib/components/cards.ex:35 (xmeyers) --><!-- <Xmeyers.Components.Cards.url_block> lib/components/cards.ex:52 (xmeyers) --><a data-phx-loc="53" target="_blank" href="/xmeyers/static/maps/K2Sierra.pdf" class="block px-4 py-3 min-h-11 text-blue-600 hover:bg-gray-100 active:bg-gray-200 border-b border-gray-100 last:border-b-0 lg:py-1 lg:min-h-0 lg:hover:bg-transparent lg:active:bg-transparent lg:border-b-0">
+      
+    <a target="_blank" href="/xmeyers/static/maps/K2Sierra.pdf" class="block px-4 py-3 min-h-11 text-blue-600 hover:bg-gray-100 active:bg-gray-200 border-b border-gray-100 last:border-b-0 lg:py-1 lg:min-h-0 lg:hover:bg-transparent lg:active:bg-transparent lg:border-b-0">
   K2Sierra
-</a><!-- </Xmeyers.Components.Cards.url_block> -->
+</a>
 
     
-      <!-- @caller lib/components/cards.ex:22 (xmeyers) -->
-    <!-- @caller lib/components/cards.ex:35 (xmeyers) --><!-- <Xmeyers.Components.Cards.url_block> lib/components/cards.ex:52 (xmeyers) --><a data-phx-loc="53" target="_blank" href="/xmeyers/static/maps/ScoutPeak.pdf" class="block px-4 py-3 min-h-11 text-blue-600 hover:bg-gray-100 active:bg-gray-200 border-b border-gray-100 last:border-b-0 lg:py-1 lg:min-h-0 lg:hover:bg-transparent lg:active:bg-transparent lg:border-b-0">
+      
+    <a target="_blank" href="/xmeyers/static/maps/ScoutPeak.pdf" class="block px-4 py-3 min-h-11 text-blue-600 hover:bg-gray-100 active:bg-gray-200 border-b border-gray-100 last:border-b-0 lg:py-1 lg:min-h-0 lg:hover:bg-transparent lg:active:bg-transparent lg:border-b-0">
   ScoutPeak
-</a><!-- </Xmeyers.Components.Cards.url_block> -->
+</a>
 
     
-      <!-- @caller lib/components/cards.ex:22 (xmeyers) -->
-    <!-- @caller lib/components/cards.ex:35 (xmeyers) --><!-- <Xmeyers.Components.Cards.url_block> lib/components/cards.ex:52 (xmeyers) --><a data-phx-loc="53" target="_blank" href="/xmeyers/static/maps/SierraRidge.pdf" class="block px-4 py-3 min-h-11 text-blue-600 hover:bg-gray-100 active:bg-gray-200 border-b border-gray-100 last:border-b-0 lg:py-1 lg:min-h-0 lg:hover:bg-transparent lg:active:bg-transparent lg:border-b-0">
+      
+    <a target="_blank" href="/xmeyers/static/maps/SierraRidge.pdf" class="block px-4 py-3 min-h-11 text-blue-600 hover:bg-gray-100 active:bg-gray-200 border-b border-gray-100 last:border-b-0 lg:py-1 lg:min-h-0 lg:hover:bg-transparent lg:active:bg-transparent lg:border-b-0">
   SierraRidge
-</a><!-- </Xmeyers.Components.Cards.url_block> -->
+</a>
 
     
   </div>
-</div><!-- </Xmeyers.Components.Cards.showcard> -->
+</div>
 
-  <!-- @caller lib/components/cards.ex:8 (xmeyers) --><!-- <Xmeyers.Components.Cards.showcard> lib/components/cards.ex:15 (xmeyers) --><div data-phx-loc="16" class="relative border border-gray-300 rounded-lg shadow-sm">
-  <div data-phx-loc="17" class="px-4 py-2 bg-green-100 border-gray-200 rounded-t-lg font-medium">
+  <div class="relative border border-gray-300 rounded-lg shadow-sm">
+  <div class="px-4 py-2 bg-green-100 border-gray-200 rounded-t-lg font-medium">
     Emerald Bay
   </div>
-  <div data-phx-loc="20" class="py-2 text-base lg:text-sm text-gray-600">
+  <div class="py-2 text-base lg:text-sm text-gray-600">
     
-      <!-- @caller lib/components/cards.ex:22 (xmeyers) -->
-    <!-- @caller lib/components/cards.ex:35 (xmeyers) --><!-- <Xmeyers.Components.Cards.url_block> lib/components/cards.ex:52 (xmeyers) --><a data-phx-loc="53" target="_blank" href="/xmeyers/static/maps/CascadeCreek.pdf" class="block px-4 py-3 min-h-11 text-blue-600 hover:bg-gray-100 active:bg-gray-200 border-b border-gray-100 last:border-b-0 lg:py-1 lg:min-h-0 lg:hover:bg-transparent lg:active:bg-transparent lg:border-b-0">
+      
+    <a target="_blank" href="/xmeyers/static/maps/CascadeCreek.pdf" class="block px-4 py-3 min-h-11 text-blue-600 hover:bg-gray-100 active:bg-gray-200 border-b border-gray-100 last:border-b-0 lg:py-1 lg:min-h-0 lg:hover:bg-transparent lg:active:bg-transparent lg:border-b-0">
   CascadeCreek
-</a><!-- </Xmeyers.Components.Cards.url_block> -->
+</a>
 
     
-      <!-- @caller lib/components/cards.ex:22 (xmeyers) -->
-    <!-- @caller lib/components/cards.ex:35 (xmeyers) --><!-- <Xmeyers.Components.Cards.url_block> lib/components/cards.ex:52 (xmeyers) --><a data-phx-loc="53" target="_blank" href="/xmeyers/static/maps/FloatingIslandTallac.pdf" class="block px-4 py-3 min-h-11 text-blue-600 hover:bg-gray-100 active:bg-gray-200 border-b border-gray-100 last:border-b-0 lg:py-1 lg:min-h-0 lg:hover:bg-transparent lg:active:bg-transparent lg:border-b-0">
+      
+    <a target="_blank" href="/xmeyers/static/maps/FloatingIslandTallac.pdf" class="block px-4 py-3 min-h-11 text-blue-600 hover:bg-gray-100 active:bg-gray-200 border-b border-gray-100 last:border-b-0 lg:py-1 lg:min-h-0 lg:hover:bg-transparent lg:active:bg-transparent lg:border-b-0">
   FloatingIslandTallac
-</a><!-- </Xmeyers.Components.Cards.url_block> -->
+</a>
 
     
-      <!-- @caller lib/components/cards.ex:22 (xmeyers) -->
-    <!-- @caller lib/components/cards.ex:35 (xmeyers) --><!-- <Xmeyers.Components.Cards.url_block> lib/components/cards.ex:52 (xmeyers) --><a data-phx-loc="53" target="_blank" href="/xmeyers/static/maps/MountTallac.pdf" class="block px-4 py-3 min-h-11 text-blue-600 hover:bg-gray-100 active:bg-gray-200 border-b border-gray-100 last:border-b-0 lg:py-1 lg:min-h-0 lg:hover:bg-transparent lg:active:bg-transparent lg:border-b-0">
+      
+    <a target="_blank" href="/xmeyers/static/maps/MountTallac.pdf" class="block px-4 py-3 min-h-11 text-blue-600 hover:bg-gray-100 active:bg-gray-200 border-b border-gray-100 last:border-b-0 lg:py-1 lg:min-h-0 lg:hover:bg-transparent lg:active:bg-transparent lg:border-b-0">
   MountTallac
-</a><!-- </Xmeyers.Components.Cards.url_block> -->
+</a>
 
     
-      <!-- @caller lib/components/cards.ex:22 (xmeyers) -->
-    <!-- @caller lib/components/cards.ex:35 (xmeyers) --><!-- <Xmeyers.Components.Cards.url_block> lib/components/cards.ex:52 (xmeyers) --><a data-phx-loc="53" target="_blank" href="/xmeyers/static/maps/VikingsholmTrail.pdf" class="block px-4 py-3 min-h-11 text-blue-600 hover:bg-gray-100 active:bg-gray-200 border-b border-gray-100 last:border-b-0 lg:py-1 lg:min-h-0 lg:hover:bg-transparent lg:active:bg-transparent lg:border-b-0">
+      
+    <a target="_blank" href="/xmeyers/static/maps/VikingsholmTrail.pdf" class="block px-4 py-3 min-h-11 text-blue-600 hover:bg-gray-100 active:bg-gray-200 border-b border-gray-100 last:border-b-0 lg:py-1 lg:min-h-0 lg:hover:bg-transparent lg:active:bg-transparent lg:border-b-0">
   VikingsholmTrail
-</a><!-- </Xmeyers.Components.Cards.url_block> -->
+</a>
 
     
   </div>
-</div><!-- </Xmeyers.Components.Cards.showcard> -->
+</div>
 
-  <!-- @caller lib/components/cards.ex:8 (xmeyers) --><!-- <Xmeyers.Components.Cards.showcard> lib/components/cards.ex:15 (xmeyers) --><div data-phx-loc="16" class="relative border border-gray-300 rounded-lg shadow-sm">
-  <div data-phx-loc="17" class="px-4 py-2 bg-green-100 border-gray-200 rounded-t-lg font-medium">
+  <div class="relative border border-gray-300 rounded-lg shadow-sm">
+  <div class="px-4 py-2 bg-green-100 border-gray-200 rounded-t-lg font-medium">
     Hope Valley
   </div>
-  <div data-phx-loc="20" class="py-2 text-base lg:text-sm text-gray-600">
+  <div class="py-2 text-base lg:text-sm text-gray-600">
     
-      <!-- @caller lib/components/cards.ex:22 (xmeyers) -->
-    <!-- @caller lib/components/cards.ex:35 (xmeyers) --><!-- <Xmeyers.Components.Cards.url_block> lib/components/cards.ex:52 (xmeyers) --><a data-phx-loc="53" target="_blank" href="/xmeyers/static/maps/CraterLake.pdf" class="block px-4 py-3 min-h-11 text-blue-600 hover:bg-gray-100 active:bg-gray-200 border-b border-gray-100 last:border-b-0 lg:py-1 lg:min-h-0 lg:hover:bg-transparent lg:active:bg-transparent lg:border-b-0">
+      
+    <a target="_blank" href="/xmeyers/static/maps/CraterLake.pdf" class="block px-4 py-3 min-h-11 text-blue-600 hover:bg-gray-100 active:bg-gray-200 border-b border-gray-100 last:border-b-0 lg:py-1 lg:min-h-0 lg:hover:bg-transparent lg:active:bg-transparent lg:border-b-0">
   CraterLake
-</a><!-- </Xmeyers.Components.Cards.url_block> -->
+</a>
 
     
-      <!-- @caller lib/components/cards.ex:22 (xmeyers) -->
-    <!-- @caller lib/components/cards.ex:35 (xmeyers) --><!-- <Xmeyers.Components.Cards.url_block> lib/components/cards.ex:52 (xmeyers) --><a data-phx-loc="53" target="_blank" href="/xmeyers/static/maps/HawkinsPeak.pdf" class="block px-4 py-3 min-h-11 text-blue-600 hover:bg-gray-100 active:bg-gray-200 border-b border-gray-100 last:border-b-0 lg:py-1 lg:min-h-0 lg:hover:bg-transparent lg:active:bg-transparent lg:border-b-0">
+      
+    <a target="_blank" href="/xmeyers/static/maps/HawkinsPeak.pdf" class="block px-4 py-3 min-h-11 text-blue-600 hover:bg-gray-100 active:bg-gray-200 border-b border-gray-100 last:border-b-0 lg:py-1 lg:min-h-0 lg:hover:bg-transparent lg:active:bg-transparent lg:border-b-0">
   HawkinsPea
-</a><!-- </Xmeyers.Components.Cards.url_block> -->
+</a>
 
     
-      <!-- @caller lib/components/cards.ex:22 (xmeyers) -->
-    <!-- @caller lib/components/cards.ex:35 (xmeyers) --><!-- <Xmeyers.Components.Cards.url_block> lib/components/cards.ex:52 (xmeyers) --><a data-phx-loc="53" target="_blank" href="/xmeyers/static/maps/PickettPeak.pdf" class="block px-4 py-3 min-h-11 text-blue-600 hover:bg-gray-100 active:bg-gray-200 border-b border-gray-100 last:border-b-0 lg:py-1 lg:min-h-0 lg:hover:bg-transparent lg:active:bg-transparent lg:border-b-0">
+      
+    <a target="_blank" href="/xmeyers/static/maps/PickettPeak.pdf" class="block px-4 py-3 min-h-11 text-blue-600 hover:bg-gray-100 active:bg-gray-200 border-b border-gray-100 last:border-b-0 lg:py-1 lg:min-h-0 lg:hover:bg-transparent lg:active:bg-transparent lg:border-b-0">
   PickettPeak
-</a><!-- </Xmeyers.Components.Cards.url_block> -->
+</a>
 
     
-      <!-- @caller lib/components/cards.ex:22 (xmeyers) -->
-    <!-- @caller lib/components/cards.ex:35 (xmeyers) --><!-- <Xmeyers.Components.Cards.url_block> lib/components/cards.ex:52 (xmeyers) --><a data-phx-loc="53" target="_blank" href="/xmeyers/static/maps/StevensPeak.pdf" class="block px-4 py-3 min-h-11 text-blue-600 hover:bg-gray-100 active:bg-gray-200 border-b border-gray-100 last:border-b-0 lg:py-1 lg:min-h-0 lg:hover:bg-transparent lg:active:bg-transparent lg:border-b-0">
+      
+    <a target="_blank" href="/xmeyers/static/maps/StevensPeak.pdf" class="block px-4 py-3 min-h-11 text-blue-600 hover:bg-gray-100 active:bg-gray-200 border-b border-gray-100 last:border-b-0 lg:py-1 lg:min-h-0 lg:hover:bg-transparent lg:active:bg-transparent lg:border-b-0">
   StevensPeak
-</a><!-- </Xmeyers.Components.Cards.url_block> -->
+</a>
 
     
   </div>
-</div><!-- </Xmeyers.Components.Cards.showcard> -->
+</div>
 
-  <!-- @caller lib/components/cards.ex:8 (xmeyers) --><!-- <Xmeyers.Components.Cards.showcard> lib/components/cards.ex:15 (xmeyers) --><div data-phx-loc="16" class="relative border border-gray-300 rounded-lg shadow-sm">
-  <div data-phx-loc="17" class="px-4 py-2 bg-green-100 border-gray-200 rounded-t-lg font-medium">
+  <div class="relative border border-gray-300 rounded-lg shadow-sm">
+  <div class="px-4 py-2 bg-green-100 border-gray-200 rounded-t-lg font-medium">
     Kyburz
   </div>
-  <div data-phx-loc="20" class="py-2 text-base lg:text-sm text-gray-600">
+  <div class="py-2 text-base lg:text-sm text-gray-600">
     
-      <!-- @caller lib/components/cards.ex:22 (xmeyers) -->
-    <!-- @caller lib/components/cards.ex:35 (xmeyers) --><!-- <Xmeyers.Components.Cards.url_block> lib/components/cards.ex:52 (xmeyers) --><a data-phx-loc="53" target="_blank" href="/xmeyers/static/maps/IceHouse.pdf" class="block px-4 py-3 min-h-11 text-blue-600 hover:bg-gray-100 active:bg-gray-200 border-b border-gray-100 last:border-b-0 lg:py-1 lg:min-h-0 lg:hover:bg-transparent lg:active:bg-transparent lg:border-b-0">
+      
+    <a target="_blank" href="/xmeyers/static/maps/IceHouse.pdf" class="block px-4 py-3 min-h-11 text-blue-600 hover:bg-gray-100 active:bg-gray-200 border-b border-gray-100 last:border-b-0 lg:py-1 lg:min-h-0 lg:hover:bg-transparent lg:active:bg-transparent lg:border-b-0">
   IceHouse
-</a><!-- </Xmeyers.Components.Cards.url_block> -->
+</a>
 
     
-      <!-- @caller lib/components/cards.ex:22 (xmeyers) -->
-    <!-- @caller lib/components/cards.ex:35 (xmeyers) --><!-- <Xmeyers.Components.Cards.url_block> lib/components/cards.ex:52 (xmeyers) --><a data-phx-loc="53" target="_blank" href="/xmeyers/static/maps/LoonLake.pdf" class="block px-4 py-3 min-h-11 text-blue-600 hover:bg-gray-100 active:bg-gray-200 border-b border-gray-100 last:border-b-0 lg:py-1 lg:min-h-0 lg:hover:bg-transparent lg:active:bg-transparent lg:border-b-0">
+      
+    <a target="_blank" href="/xmeyers/static/maps/LoonLake.pdf" class="block px-4 py-3 min-h-11 text-blue-600 hover:bg-gray-100 active:bg-gray-200 border-b border-gray-100 last:border-b-0 lg:py-1 lg:min-h-0 lg:hover:bg-transparent lg:active:bg-transparent lg:border-b-0">
   LoonLake
-</a><!-- </Xmeyers.Components.Cards.url_block> -->
+</a>
 
     
-      <!-- @caller lib/components/cards.ex:22 (xmeyers) -->
-    <!-- @caller lib/components/cards.ex:35 (xmeyers) --><!-- <Xmeyers.Components.Cards.url_block> lib/components/cards.ex:52 (xmeyers) --><a data-phx-loc="53" target="_blank" href="/xmeyers/static/maps/RobbsPeak.pdf" class="block px-4 py-3 min-h-11 text-blue-600 hover:bg-gray-100 active:bg-gray-200 border-b border-gray-100 last:border-b-0 lg:py-1 lg:min-h-0 lg:hover:bg-transparent lg:active:bg-transparent lg:border-b-0">
+      
+    <a target="_blank" href="/xmeyers/static/maps/RobbsPeak.pdf" class="block px-4 py-3 min-h-11 text-blue-600 hover:bg-gray-100 active:bg-gray-200 border-b border-gray-100 last:border-b-0 lg:py-1 lg:min-h-0 lg:hover:bg-transparent lg:active:bg-transparent lg:border-b-0">
   RobbsPeak
-</a><!-- </Xmeyers.Components.Cards.url_block> -->
+</a>
 
     
-      <!-- @caller lib/components/cards.ex:22 (xmeyers) -->
-    <!-- @caller lib/components/cards.ex:35 (xmeyers) --><!-- <Xmeyers.Components.Cards.url_block> lib/components/cards.ex:52 (xmeyers) --><a data-phx-loc="53" target="_blank" href="/xmeyers/static/maps/SilverforkRoad.pdf" class="block px-4 py-3 min-h-11 text-blue-600 hover:bg-gray-100 active:bg-gray-200 border-b border-gray-100 last:border-b-0 lg:py-1 lg:min-h-0 lg:hover:bg-transparent lg:active:bg-transparent lg:border-b-0">
+      
+    <a target="_blank" href="/xmeyers/static/maps/SilverforkRoad.pdf" class="block px-4 py-3 min-h-11 text-blue-600 hover:bg-gray-100 active:bg-gray-200 border-b border-gray-100 last:border-b-0 lg:py-1 lg:min-h-0 lg:hover:bg-transparent lg:active:bg-transparent lg:border-b-0">
   SilverforkRoad
-</a><!-- </Xmeyers.Components.Cards.url_block> -->
+</a>
 
     
-      <!-- @caller lib/components/cards.ex:22 (xmeyers) -->
-    <!-- @caller lib/components/cards.ex:35 (xmeyers) --><!-- <Xmeyers.Components.Cards.url_block> lib/components/cards.ex:52 (xmeyers) --><a data-phx-loc="53" target="_blank" href="/xmeyers/static/maps/WrightsLake.pdf" class="block px-4 py-3 min-h-11 text-blue-600 hover:bg-gray-100 active:bg-gray-200 border-b border-gray-100 last:border-b-0 lg:py-1 lg:min-h-0 lg:hover:bg-transparent lg:active:bg-transparent lg:border-b-0">
+      
+    <a target="_blank" href="/xmeyers/static/maps/WrightsLake.pdf" class="block px-4 py-3 min-h-11 text-blue-600 hover:bg-gray-100 active:bg-gray-200 border-b border-gray-100 last:border-b-0 lg:py-1 lg:min-h-0 lg:hover:bg-transparent lg:active:bg-transparent lg:border-b-0">
   WrightsLake
-</a><!-- </Xmeyers.Components.Cards.url_block> -->
+</a>
 
     
   </div>
-</div><!-- </Xmeyers.Components.Cards.showcard> -->
+</div>
 
-  <!-- @caller lib/components/cards.ex:8 (xmeyers) --><!-- <Xmeyers.Components.Cards.showcard> lib/components/cards.ex:15 (xmeyers) --><div data-phx-loc="16" class="relative border border-gray-300 rounded-lg shadow-sm">
-  <div data-phx-loc="17" class="px-4 py-2 bg-green-100 border-gray-200 rounded-t-lg font-medium">
+  <div class="relative border border-gray-300 rounded-lg shadow-sm">
+  <div class="px-4 py-2 bg-green-100 border-gray-200 rounded-t-lg font-medium">
     Lake Valley
   </div>
-  <div data-phx-loc="20" class="py-2 text-base lg:text-sm text-gray-600">
+  <div class="py-2 text-base lg:text-sm text-gray-600">
     
-      <!-- @caller lib/components/cards.ex:22 (xmeyers) -->
-    <!-- @caller lib/components/cards.ex:35 (xmeyers) --><!-- <Xmeyers.Components.Cards.url_block> lib/components/cards.ex:52 (xmeyers) --><a data-phx-loc="53" target="_blank" href="/xmeyers/static/maps/LakeValley.pdf" class="block px-4 py-3 min-h-11 text-blue-600 hover:bg-gray-100 active:bg-gray-200 border-b border-gray-100 last:border-b-0 lg:py-1 lg:min-h-0 lg:hover:bg-transparent lg:active:bg-transparent lg:border-b-0">
+      
+    <a target="_blank" href="/xmeyers/static/maps/LakeValley.pdf" class="block px-4 py-3 min-h-11 text-blue-600 hover:bg-gray-100 active:bg-gray-200 border-b border-gray-100 last:border-b-0 lg:py-1 lg:min-h-0 lg:hover:bg-transparent lg:active:bg-transparent lg:border-b-0">
   LakeValley
-</a><!-- </Xmeyers.Components.Cards.url_block> -->
+</a>
 
     
-      <!-- @caller lib/components/cards.ex:22 (xmeyers) -->
-    <!-- @caller lib/components/cards.ex:35 (xmeyers) --><!-- <Xmeyers.Components.Cards.url_block> lib/components/cards.ex:52 (xmeyers) --><a data-phx-loc="53" target="_blank" href="/xmeyers/static/maps/OsgoodSwamp.pdf" class="block px-4 py-3 min-h-11 text-blue-600 hover:bg-gray-100 active:bg-gray-200 border-b border-gray-100 last:border-b-0 lg:py-1 lg:min-h-0 lg:hover:bg-transparent lg:active:bg-transparent lg:border-b-0">
+      
+    <a target="_blank" href="/xmeyers/static/maps/OsgoodSwamp.pdf" class="block px-4 py-3 min-h-11 text-blue-600 hover:bg-gray-100 active:bg-gray-200 border-b border-gray-100 last:border-b-0 lg:py-1 lg:min-h-0 lg:hover:bg-transparent lg:active:bg-transparent lg:border-b-0">
   OsgoodSwamp
-</a><!-- </Xmeyers.Components.Cards.url_block> -->
+</a>
 
     
-      <!-- @caller lib/components/cards.ex:22 (xmeyers) -->
-    <!-- @caller lib/components/cards.ex:35 (xmeyers) --><!-- <Xmeyers.Components.Cards.url_block> lib/components/cards.ex:52 (xmeyers) --><a data-phx-loc="53" target="_blank" href="/xmeyers/static/maps/SaxonCreek.pdf" class="block px-4 py-3 min-h-11 text-blue-600 hover:bg-gray-100 active:bg-gray-200 border-b border-gray-100 last:border-b-0 lg:py-1 lg:min-h-0 lg:hover:bg-transparent lg:active:bg-transparent lg:border-b-0">
+      
+    <a target="_blank" href="/xmeyers/static/maps/SaxonCreek.pdf" class="block px-4 py-3 min-h-11 text-blue-600 hover:bg-gray-100 active:bg-gray-200 border-b border-gray-100 last:border-b-0 lg:py-1 lg:min-h-0 lg:hover:bg-transparent lg:active:bg-transparent lg:border-b-0">
   SaxonCreek
-</a><!-- </Xmeyers.Components.Cards.url_block> -->
+</a>
 
     
-      <!-- @caller lib/components/cards.ex:22 (xmeyers) -->
-    <!-- @caller lib/components/cards.ex:35 (xmeyers) --><!-- <Xmeyers.Components.Cards.url_block> lib/components/cards.ex:52 (xmeyers) --><a data-phx-loc="53" target="_blank" href="/xmeyers/static/maps/WashoeMeadows.pdf" class="block px-4 py-3 min-h-11 text-blue-600 hover:bg-gray-100 active:bg-gray-200 border-b border-gray-100 last:border-b-0 lg:py-1 lg:min-h-0 lg:hover:bg-transparent lg:active:bg-transparent lg:border-b-0">
+      
+    <a target="_blank" href="/xmeyers/static/maps/WashoeMeadows.pdf" class="block px-4 py-3 min-h-11 text-blue-600 hover:bg-gray-100 active:bg-gray-200 border-b border-gray-100 last:border-b-0 lg:py-1 lg:min-h-0 lg:hover:bg-transparent lg:active:bg-transparent lg:border-b-0">
   WashoeMeadows
-</a><!-- </Xmeyers.Components.Cards.url_block> -->
+</a>
 
     
   </div>
-</div><!-- </Xmeyers.Components.Cards.showcard> -->
+</div>
 
-  <!-- @caller lib/components/cards.ex:8 (xmeyers) --><!-- <Xmeyers.Components.Cards.showcard> lib/components/cards.ex:15 (xmeyers) --><div data-phx-loc="16" class="relative border border-gray-300 rounded-lg shadow-sm">
-  <div data-phx-loc="17" class="px-4 py-2 bg-green-100 border-gray-200 rounded-t-lg font-medium">
+  <div class="relative border border-gray-300 rounded-lg shadow-sm">
+  <div class="px-4 py-2 bg-green-100 border-gray-200 rounded-t-lg font-medium">
     Lee Vining
   </div>
-  <div data-phx-loc="20" class="py-2 text-base lg:text-sm text-gray-600">
+  <div class="py-2 text-base lg:text-sm text-gray-600">
     
-      <!-- @caller lib/components/cards.ex:22 (xmeyers) -->
-    <!-- @caller lib/components/cards.ex:35 (xmeyers) --><!-- <Xmeyers.Components.Cards.url_block> lib/components/cards.ex:52 (xmeyers) --><a data-phx-loc="53" target="_blank" href="/xmeyers/static/maps/LeeViningCanyon.pdf" class="block px-4 py-3 min-h-11 text-blue-600 hover:bg-gray-100 active:bg-gray-200 border-b border-gray-100 last:border-b-0 lg:py-1 lg:min-h-0 lg:hover:bg-transparent lg:active:bg-transparent lg:border-b-0">
+      
+    <a target="_blank" href="/xmeyers/static/maps/LeeViningCanyon.pdf" class="block px-4 py-3 min-h-11 text-blue-600 hover:bg-gray-100 active:bg-gray-200 border-b border-gray-100 last:border-b-0 lg:py-1 lg:min-h-0 lg:hover:bg-transparent lg:active:bg-transparent lg:border-b-0">
   LeeViningCanyon
-</a><!-- </Xmeyers.Components.Cards.url_block> -->
+</a>
 
     
-      <!-- @caller lib/components/cards.ex:22 (xmeyers) -->
-    <!-- @caller lib/components/cards.ex:35 (xmeyers) --><!-- <Xmeyers.Components.Cards.url_block> lib/components/cards.ex:52 (xmeyers) --><a data-phx-loc="53" target="_blank" href="/xmeyers/static/maps/LeeViningPowerplant.pdf" class="block px-4 py-3 min-h-11 text-blue-600 hover:bg-gray-100 active:bg-gray-200 border-b border-gray-100 last:border-b-0 lg:py-1 lg:min-h-0 lg:hover:bg-transparent lg:active:bg-transparent lg:border-b-0">
+      
+    <a target="_blank" href="/xmeyers/static/maps/LeeViningPowerplant.pdf" class="block px-4 py-3 min-h-11 text-blue-600 hover:bg-gray-100 active:bg-gray-200 border-b border-gray-100 last:border-b-0 lg:py-1 lg:min-h-0 lg:hover:bg-transparent lg:active:bg-transparent lg:border-b-0">
   LeeViningPowerplant
-</a><!-- </Xmeyers.Components.Cards.url_block> -->
+</a>
 
     
   </div>
-</div><!-- </Xmeyers.Components.Cards.showcard> -->
+</div>
 
-  <!-- @caller lib/components/cards.ex:8 (xmeyers) --><!-- <Xmeyers.Components.Cards.showcard> lib/components/cards.ex:15 (xmeyers) --><div data-phx-loc="16" class="relative border border-gray-300 rounded-lg shadow-sm">
-  <div data-phx-loc="17" class="px-4 py-2 bg-green-100 border-gray-200 rounded-t-lg font-medium">
+  <div class="relative border border-gray-300 rounded-lg shadow-sm">
+  <div class="px-4 py-2 bg-green-100 border-gray-200 rounded-t-lg font-medium">
     Luther Pass
   </div>
-  <div data-phx-loc="20" class="py-2 text-base lg:text-sm text-gray-600">
+  <div class="py-2 text-base lg:text-sm text-gray-600">
     
-      <!-- @caller lib/components/cards.ex:22 (xmeyers) -->
-    <!-- @caller lib/components/cards.ex:35 (xmeyers) --><!-- <Xmeyers.Components.Cards.url_block> lib/components/cards.ex:52 (xmeyers) --><a data-phx-loc="53" target="_blank" href="/xmeyers/static/maps/LutherSpires.pdf" class="block px-4 py-3 min-h-11 text-blue-600 hover:bg-gray-100 active:bg-gray-200 border-b border-gray-100 last:border-b-0 lg:py-1 lg:min-h-0 lg:hover:bg-transparent lg:active:bg-transparent lg:border-b-0">
+      
+    <a target="_blank" href="/xmeyers/static/maps/LutherSpires.pdf" class="block px-4 py-3 min-h-11 text-blue-600 hover:bg-gray-100 active:bg-gray-200 border-b border-gray-100 last:border-b-0 lg:py-1 lg:min-h-0 lg:hover:bg-transparent lg:active:bg-transparent lg:border-b-0">
   LutherSpires
-</a><!-- </Xmeyers.Components.Cards.url_block> -->
+</a>
 
     
-      <!-- @caller lib/components/cards.ex:22 (xmeyers) -->
-    <!-- @caller lib/components/cards.ex:35 (xmeyers) --><!-- <Xmeyers.Components.Cards.url_block> lib/components/cards.ex:52 (xmeyers) --><a data-phx-loc="53" target="_blank" href="/xmeyers/static/maps/RoundLakeLuther.pdf" class="block px-4 py-3 min-h-11 text-blue-600 hover:bg-gray-100 active:bg-gray-200 border-b border-gray-100 last:border-b-0 lg:py-1 lg:min-h-0 lg:hover:bg-transparent lg:active:bg-transparent lg:border-b-0">
+      
+    <a target="_blank" href="/xmeyers/static/maps/RoundLakeLuther.pdf" class="block px-4 py-3 min-h-11 text-blue-600 hover:bg-gray-100 active:bg-gray-200 border-b border-gray-100 last:border-b-0 lg:py-1 lg:min-h-0 lg:hover:bg-transparent lg:active:bg-transparent lg:border-b-0">
   RoundLakeLuther
-</a><!-- </Xmeyers.Components.Cards.url_block> -->
+</a>
 
     
-      <!-- @caller lib/components/cards.ex:22 (xmeyers) -->
-    <!-- @caller lib/components/cards.ex:35 (xmeyers) --><!-- <Xmeyers.Components.Cards.url_block> lib/components/cards.ex:52 (xmeyers) --><a data-phx-loc="53" target="_blank" href="/xmeyers/static/maps/WaterhousePeak.pdf" class="block px-4 py-3 min-h-11 text-blue-600 hover:bg-gray-100 active:bg-gray-200 border-b border-gray-100 last:border-b-0 lg:py-1 lg:min-h-0 lg:hover:bg-transparent lg:active:bg-transparent lg:border-b-0">
+      
+    <a target="_blank" href="/xmeyers/static/maps/WaterhousePeak.pdf" class="block px-4 py-3 min-h-11 text-blue-600 hover:bg-gray-100 active:bg-gray-200 border-b border-gray-100 last:border-b-0 lg:py-1 lg:min-h-0 lg:hover:bg-transparent lg:active:bg-transparent lg:border-b-0">
   WaterhousePeak
-</a><!-- </Xmeyers.Components.Cards.url_block> -->
+</a>
 
     
-      <!-- @caller lib/components/cards.ex:22 (xmeyers) -->
-    <!-- @caller lib/components/cards.ex:35 (xmeyers) --><!-- <Xmeyers.Components.Cards.url_block> lib/components/cards.ex:52 (xmeyers) --><a data-phx-loc="53" target="_blank" href="/xmeyers/static/maps/WillowCreek.pdf" class="block px-4 py-3 min-h-11 text-blue-600 hover:bg-gray-100 active:bg-gray-200 border-b border-gray-100 last:border-b-0 lg:py-1 lg:min-h-0 lg:hover:bg-transparent lg:active:bg-transparent lg:border-b-0">
+      
+    <a target="_blank" href="/xmeyers/static/maps/WillowCreek.pdf" class="block px-4 py-3 min-h-11 text-blue-600 hover:bg-gray-100 active:bg-gray-200 border-b border-gray-100 last:border-b-0 lg:py-1 lg:min-h-0 lg:hover:bg-transparent lg:active:bg-transparent lg:border-b-0">
   WillowCreek
-</a><!-- </Xmeyers.Components.Cards.url_block> -->
+</a>
 
     
   </div>
-</div><!-- </Xmeyers.Components.Cards.showcard> -->
+</div>
 
-  <!-- @caller lib/components/cards.ex:8 (xmeyers) --><!-- <Xmeyers.Components.Cards.showcard> lib/components/cards.ex:15 (xmeyers) --><div data-phx-loc="16" class="relative border border-gray-300 rounded-lg shadow-sm">
-  <div data-phx-loc="17" class="px-4 py-2 bg-green-100 border-gray-200 rounded-t-lg font-medium">
+  <div class="relative border border-gray-300 rounded-lg shadow-sm">
+  <div class="px-4 py-2 bg-green-100 border-gray-200 rounded-t-lg font-medium">
     Shuteye Ridge
   </div>
-  <div data-phx-loc="20" class="py-2 text-base lg:text-sm text-gray-600">
+  <div class="py-2 text-base lg:text-sm text-gray-600">
     
-      <!-- @caller lib/components/cards.ex:22 (xmeyers) -->
-    <!-- @caller lib/components/cards.ex:35 (xmeyers) --><!-- <Xmeyers.Components.Cards.url_block> lib/components/cards.ex:52 (xmeyers) --><a data-phx-loc="53" target="_blank" href="/xmeyers/static/maps/Shuteye6S42.pdf" class="block px-4 py-3 min-h-11 text-blue-600 hover:bg-gray-100 active:bg-gray-200 border-b border-gray-100 last:border-b-0 lg:py-1 lg:min-h-0 lg:hover:bg-transparent lg:active:bg-transparent lg:border-b-0">
+      
+    <a target="_blank" href="/xmeyers/static/maps/Shuteye6S42.pdf" class="block px-4 py-3 min-h-11 text-blue-600 hover:bg-gray-100 active:bg-gray-200 border-b border-gray-100 last:border-b-0 lg:py-1 lg:min-h-0 lg:hover:bg-transparent lg:active:bg-transparent lg:border-b-0">
   Shuteye6S42
-</a><!-- </Xmeyers.Components.Cards.url_block> -->
+</a>
 
     
-      <!-- @caller lib/components/cards.ex:22 (xmeyers) -->
-    <!-- @caller lib/components/cards.ex:35 (xmeyers) --><!-- <Xmeyers.Components.Cards.url_block> lib/components/cards.ex:52 (xmeyers) --><a data-phx-loc="53" target="_blank" href="/xmeyers/static/maps/Shuteye8007.pdf" class="block px-4 py-3 min-h-11 text-blue-600 hover:bg-gray-100 active:bg-gray-200 border-b border-gray-100 last:border-b-0 lg:py-1 lg:min-h-0 lg:hover:bg-transparent lg:active:bg-transparent lg:border-b-0">
+      
+    <a target="_blank" href="/xmeyers/static/maps/Shuteye8007.pdf" class="block px-4 py-3 min-h-11 text-blue-600 hover:bg-gray-100 active:bg-gray-200 border-b border-gray-100 last:border-b-0 lg:py-1 lg:min-h-0 lg:hover:bg-transparent lg:active:bg-transparent lg:border-b-0">
   Shuteye8007
-</a><!-- </Xmeyers.Components.Cards.url_block> -->
+</a>
 
     
   </div>
-</div><!-- </Xmeyers.Components.Cards.showcard> -->
+</div>
 
-  <!-- @caller lib/components/cards.ex:8 (xmeyers) --><!-- <Xmeyers.Components.Cards.showcard> lib/components/cards.ex:15 (xmeyers) --><div data-phx-loc="16" class="relative border border-gray-300 rounded-lg shadow-sm">
-  <div data-phx-loc="17" class="px-4 py-2 bg-green-100 border-gray-200 rounded-t-lg font-medium">
+  <div class="relative border border-gray-300 rounded-lg shadow-sm">
+  <div class="px-4 py-2 bg-green-100 border-gray-200 rounded-t-lg font-medium">
     Sonora Pass
   </div>
-  <div data-phx-loc="20" class="py-2 text-base lg:text-sm text-gray-600">
+  <div class="py-2 text-base lg:text-sm text-gray-600">
     
-      <!-- @caller lib/components/cards.ex:22 (xmeyers) -->
-    <!-- @caller lib/components/cards.ex:35 (xmeyers) --><!-- <Xmeyers.Components.Cards.url_block> lib/components/cards.ex:52 (xmeyers) --><a data-phx-loc="53" target="_blank" href="/xmeyers/static/maps/FS32062.pdf" class="block px-4 py-3 min-h-11 text-blue-600 hover:bg-gray-100 active:bg-gray-200 border-b border-gray-100 last:border-b-0 lg:py-1 lg:min-h-0 lg:hover:bg-transparent lg:active:bg-transparent lg:border-b-0">
+      
+    <a target="_blank" href="/xmeyers/static/maps/FS32062.pdf" class="block px-4 py-3 min-h-11 text-blue-600 hover:bg-gray-100 active:bg-gray-200 border-b border-gray-100 last:border-b-0 lg:py-1 lg:min-h-0 lg:hover:bg-transparent lg:active:bg-transparent lg:border-b-0">
   FS32062
-</a><!-- </Xmeyers.Components.Cards.url_block> -->
+</a>
 
     
-      <!-- @caller lib/components/cards.ex:22 (xmeyers) -->
-    <!-- @caller lib/components/cards.ex:35 (xmeyers) --><!-- <Xmeyers.Components.Cards.url_block> lib/components/cards.ex:52 (xmeyers) --><a data-phx-loc="53" target="_blank" href="/xmeyers/static/maps/LeavittLake.pdf" class="block px-4 py-3 min-h-11 text-blue-600 hover:bg-gray-100 active:bg-gray-200 border-b border-gray-100 last:border-b-0 lg:py-1 lg:min-h-0 lg:hover:bg-transparent lg:active:bg-transparent lg:border-b-0">
+      
+    <a target="_blank" href="/xmeyers/static/maps/LeavittLake.pdf" class="block px-4 py-3 min-h-11 text-blue-600 hover:bg-gray-100 active:bg-gray-200 border-b border-gray-100 last:border-b-0 lg:py-1 lg:min-h-0 lg:hover:bg-transparent lg:active:bg-transparent lg:border-b-0">
   LeavittLake
-</a><!-- </Xmeyers.Components.Cards.url_block> -->
+</a>
 
     
   </div>
-</div><!-- </Xmeyers.Components.Cards.showcard> -->
+</div>
 
-  <!-- @caller lib/components/cards.ex:8 (xmeyers) --><!-- <Xmeyers.Components.Cards.showcard> lib/components/cards.ex:15 (xmeyers) --><div data-phx-loc="16" class="relative border border-gray-300 rounded-lg shadow-sm">
-  <div data-phx-loc="17" class="px-4 py-2 bg-green-100 border-gray-200 rounded-t-lg font-medium">
+  <div class="relative border border-gray-300 rounded-lg shadow-sm">
+  <div class="px-4 py-2 bg-green-100 border-gray-200 rounded-t-lg font-medium">
     Sweetwater Mountains
   </div>
-  <div data-phx-loc="20" class="py-2 text-base lg:text-sm text-gray-600">
+  <div class="py-2 text-base lg:text-sm text-gray-600">
     
-      <!-- @caller lib/components/cards.ex:22 (xmeyers) -->
-    <!-- @caller lib/components/cards.ex:35 (xmeyers) --><!-- <Xmeyers.Components.Cards.url_block> lib/components/cards.ex:52 (xmeyers) --><a data-phx-loc="53" target="_blank" href="/xmeyers/static/maps/BurchamFlat.pdf" class="block px-4 py-3 min-h-11 text-blue-600 hover:bg-gray-100 active:bg-gray-200 border-b border-gray-100 last:border-b-0 lg:py-1 lg:min-h-0 lg:hover:bg-transparent lg:active:bg-transparent lg:border-b-0">
+      
+    <a target="_blank" href="/xmeyers/static/maps/BurchamFlat.pdf" class="block px-4 py-3 min-h-11 text-blue-600 hover:bg-gray-100 active:bg-gray-200 border-b border-gray-100 last:border-b-0 lg:py-1 lg:min-h-0 lg:hover:bg-transparent lg:active:bg-transparent lg:border-b-0">
   BurchamFlat
-</a><!-- </Xmeyers.Components.Cards.url_block> -->
+</a>
 
     
-      <!-- @caller lib/components/cards.ex:22 (xmeyers) -->
-    <!-- @caller lib/components/cards.ex:35 (xmeyers) --><!-- <Xmeyers.Components.Cards.url_block> lib/components/cards.ex:52 (xmeyers) --><a data-phx-loc="53" target="_blank" href="/xmeyers/static/maps/LobdellLake.pdf" class="block px-4 py-3 min-h-11 text-blue-600 hover:bg-gray-100 active:bg-gray-200 border-b border-gray-100 last:border-b-0 lg:py-1 lg:min-h-0 lg:hover:bg-transparent lg:active:bg-transparent lg:border-b-0">
+      
+    <a target="_blank" href="/xmeyers/static/maps/LobdellLake.pdf" class="block px-4 py-3 min-h-11 text-blue-600 hover:bg-gray-100 active:bg-gray-200 border-b border-gray-100 last:border-b-0 lg:py-1 lg:min-h-0 lg:hover:bg-transparent lg:active:bg-transparent lg:border-b-0">
   LobdellLake
-</a><!-- </Xmeyers.Components.Cards.url_block> -->
+</a>
 
     
-      <!-- @caller lib/components/cards.ex:22 (xmeyers) -->
-    <!-- @caller lib/components/cards.ex:35 (xmeyers) --><!-- <Xmeyers.Components.Cards.url_block> lib/components/cards.ex:52 (xmeyers) --><a data-phx-loc="53" target="_blank" href="/xmeyers/static/maps/JackassFlat.pdf" class="block px-4 py-3 min-h-11 text-blue-600 hover:bg-gray-100 active:bg-gray-200 border-b border-gray-100 last:border-b-0 lg:py-1 lg:min-h-0 lg:hover:bg-transparent lg:active:bg-transparent lg:border-b-0">
+      
+    <a target="_blank" href="/xmeyers/static/maps/JackassFlat.pdf" class="block px-4 py-3 min-h-11 text-blue-600 hover:bg-gray-100 active:bg-gray-200 border-b border-gray-100 last:border-b-0 lg:py-1 lg:min-h-0 lg:hover:bg-transparent lg:active:bg-transparent lg:border-b-0">
   JackassFlat
-</a><!-- </Xmeyers.Components.Cards.url_block> -->
+</a>
 
     
   </div>
-</div><!-- </Xmeyers.Components.Cards.showcard> -->
+</div>
 
-  <!-- @caller lib/components/cards.ex:8 (xmeyers) --><!-- <Xmeyers.Components.Cards.showcard> lib/components/cards.ex:15 (xmeyers) --><div data-phx-loc="16" class="relative border border-gray-300 rounded-lg shadow-sm">
-  <div data-phx-loc="17" class="px-4 py-2 bg-green-100 border-gray-200 rounded-t-lg font-medium">
+  <div class="relative border border-gray-300 rounded-lg shadow-sm">
+  <div class="px-4 py-2 bg-green-100 border-gray-200 rounded-t-lg font-medium">
     Twin Lakes
   </div>
-  <div data-phx-loc="20" class="py-2 text-base lg:text-sm text-gray-600">
+  <div class="py-2 text-base lg:text-sm text-gray-600">
     
-      <!-- @caller lib/components/cards.ex:22 (xmeyers) -->
-    <!-- @caller lib/components/cards.ex:35 (xmeyers) --><!-- <Xmeyers.Components.Cards.url_block> lib/components/cards.ex:52 (xmeyers) --><a data-phx-loc="53" target="_blank" href="/xmeyers/static/maps/BuckeyeHotSprings.pdf" class="block px-4 py-3 min-h-11 text-blue-600 hover:bg-gray-100 active:bg-gray-200 border-b border-gray-100 last:border-b-0 lg:py-1 lg:min-h-0 lg:hover:bg-transparent lg:active:bg-transparent lg:border-b-0">
+      
+    <a target="_blank" href="/xmeyers/static/maps/BuckeyeHotSprings.pdf" class="block px-4 py-3 min-h-11 text-blue-600 hover:bg-gray-100 active:bg-gray-200 border-b border-gray-100 last:border-b-0 lg:py-1 lg:min-h-0 lg:hover:bg-transparent lg:active:bg-transparent lg:border-b-0">
   BuckeyeHotSprings
-</a><!-- </Xmeyers.Components.Cards.url_block> -->
+</a>
 
     
   </div>
-</div><!-- </Xmeyers.Components.Cards.showcard> -->
+</div>
 
-  <!-- @caller lib/components/cards.ex:8 (xmeyers) --><!-- <Xmeyers.Components.Cards.showcard> lib/components/cards.ex:15 (xmeyers) --><div data-phx-loc="16" class="relative border border-gray-300 rounded-lg shadow-sm">
-  <div data-phx-loc="17" class="px-4 py-2 bg-green-100 border-gray-200 rounded-t-lg font-medium">
+  <div class="relative border border-gray-300 rounded-lg shadow-sm">
+  <div class="px-4 py-2 bg-green-100 border-gray-200 rounded-t-lg font-medium">
     About the Maps
   </div>
-  <div data-phx-loc="20" class="py-2 text-base lg:text-sm text-gray-600">
+  <div class="py-2 text-base lg:text-sm text-gray-600">
     
-      <!-- @caller lib/components/cards.ex:22 (xmeyers) -->
-    <!-- @caller lib/components/cards.ex:33 (xmeyers) --><!-- <Xmeyers.Components.Cards.txt_block> lib/components/cards.ex:42 (xmeyers) --><p data-phx-loc="43" class="block px-4 py-3 min-h-11 active:bg-gray-200 border-b border-gray-100 last:border-b-0 lg:py-1 lg:min-h-0 lg:hover:bg-transparent lg:active:bg-transparent lg:border-b-0">
+      
+    <p class="block px-4 py-3 min-h-11 active:bg-gray-200 border-b border-gray-100 last:border-b-0 lg:py-1 lg:min-h-0 lg:hover:bg-transparent lg:active:bg-transparent lg:border-b-0">
   These maps show Forest Service roads and hiking trails.
-</p><!-- </Xmeyers.Components.Cards.txt_block> -->
+</p>
   
     
-      <!-- @caller lib/components/cards.ex:22 (xmeyers) -->
-    <!-- @caller lib/components/cards.ex:33 (xmeyers) --><!-- <Xmeyers.Components.Cards.txt_block> lib/components/cards.ex:42 (xmeyers) --><p data-phx-loc="43" class="block px-4 py-3 min-h-11 active:bg-gray-200 border-b border-gray-100 last:border-b-0 lg:py-1 lg:min-h-0 lg:hover:bg-transparent lg:active:bg-transparent lg:border-b-0">
+      
+    <p class="block px-4 py-3 min-h-11 active:bg-gray-200 border-b border-gray-100 last:border-b-0 lg:py-1 lg:min-h-0 lg:hover:bg-transparent lg:active:bg-transparent lg:border-b-0">
   Each map is a Geospatial PDF file, generated with <a href="https://caltopo.com">CalTopo</a>.</p>
-</p><!-- </Xmeyers.Components.Cards.txt_block> -->
+</p>
   
     
-      <!-- @caller lib/components/cards.ex:22 (xmeyers) -->
-    <!-- @caller lib/components/cards.ex:33 (xmeyers) --><!-- <Xmeyers.Components.Cards.txt_block> lib/components/cards.ex:42 (xmeyers) --><p data-phx-loc="43" class="block px-4 py-3 min-h-11 active:bg-gray-200 border-b border-gray-100 last:border-b-0 lg:py-1 lg:min-h-0 lg:hover:bg-transparent lg:active:bg-transparent lg:border-b-0">
+      
+    <p class="block px-4 py-3 min-h-11 active:bg-gray-200 border-b border-gray-100 last:border-b-0 lg:py-1 lg:min-h-0 lg:hover:bg-transparent lg:active:bg-transparent lg:border-b-0">
   Load the maps on your phone to navigate with <a href="https://www.avenzamaps.com">Avenza</a>.</p>
-</p><!-- </Xmeyers.Components.Cards.txt_block> -->
+</p>
   
     
   </div>
-</div><!-- </Xmeyers.Components.Cards.showcard> -->
+</div>
 
-</div><!-- </Xmeyers.Components.Cards.cardpage> --><!-- </Xmeyers.MapsPage.template> -->
+</div>
   </body>
   
-    <script>
-  function log(message) {
-    if (true) {
-      console.log(`[web_dev_utils] ${message}`)
-    }
-  }
-  function connect() {
-    try {
-      window.socket = new WebSocket('ws://' + location.host + '/ws');
-
-      window.socket.onmessage = function(e) {
-        if (e.data === "reload") {
-          log("reloading!");
-          location.reload();
-        } else if (e.data === "subscribed") {
-          log("connected and subscribed!");
-        }
-      }
-
-      window.socket.onopen = () => {
-        waitForConnection(() => {
-          log("sending 'subscribe' message");
-          window.socket.send("subscribe")
-        }
-        , 300);
-      };
-
-      window.socket.onclose = () => {
-        setTimeout(() => connect(), 500);
-      };
-
-      function waitForConnection(callback, interval) {
-        log("waiting for connection!")
-        if (window.socket.readyState === 1) {
-          callback();
-        } else {
-          log("setting a timeout")
-          setTimeout(() => waitForConnection(callback, interval), interval);
-        }
-      }
-    } catch (e) {
-      log(e);
-      setTimeout(() => connect(), 500);
-    }
-  }
-
-  log("about to connect");
-  connect();
-</script>
-
-  
-</html><!-- </Xmeyers.RootLayout.template> -->
+</html>
