@@ -27,6 +27,8 @@
 - Fire: 
     - url: https://inciweb.nwcg.gov
       lbl: Inciweb
+    - url: https://app.watchduty.org/
+      lbl: Watch Duty
     - url: https://eldoradocounty.maps.arcgis.com
       lbl: ElDorado GIS 
     - txt: | 
