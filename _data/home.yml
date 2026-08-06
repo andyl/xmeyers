@@ -11,17 +11,8 @@
     - txt: <a href="/xmeyers/cams">Road Cams</a>
     - url: https://www.sierraattahoe.com/live-cams/
       lbl: SierraAtTahoe Webcams
-    - txt: | 
-        Fire: 
-        <a target="_blank" href="http://www.alertwildfire.org/tahoe/index.html?camera=Axis-Sierra&v=fd40734">
-          SierraAtTahoe
-        </a> | 
-        <a target="_blank" href="http://www.alertwildfire.org/tahoe/index.html?camera=Axis-HawkinsPeak&v=fd40734">
-          Hawkins
-        </a> | 
-        <a target="_blank" href="http://www.alertwildfire.org/tahoe/index.html?camera=Axis-Heavenly2&v=fd40734">
-          Heavenly
-        </a>
+    - url: http://www.alertwildfire.org
+      lbl: Alert Wildfire
       
 - Traffic: 
     - url: https://www.google.com/maps/place/Meyers,+CA+96150/@38.8754622,-119.9998282,12.5z/data=!4m5!3m4!1s0x80998dd10cb46911:0x9a6aa0d06b4f0a29!8m2!3d38.8561066!4d-120.013057!5m1!1e1
@@ -36,14 +27,13 @@
 - Fire: 
     - url: https://inciweb.nwcg.gov
       lbl: Inciweb
-    - url: https://eldoradocounty.maps.arcgis.com/apps/webappviewer/index.html?id=c995bf3816964e948d7d831d3ba938ff
-      lbl: Evacuation Orders 
+    - url: https://eldoradocounty.maps.arcgis.com
+      lbl: ElDorado GIS 
     - txt: | 
         Maps: 
         <a target="_blank" href="https://fire.airnow.gov/?lat=38.85&lng=-120.02&zoom=10">Airnow</a> |
         <a target="_blank" href="https://www.windy.com/?38.764,-120.171,11">Windy</a> |
         <a target="_blank" href="https://disasterresponse.maps.arcgis.com/apps/webappviewer/index.html?id=2ff1677111ae4018ac705fcce7c3312f">ESRI</a> | 
-        <a target="_blank" href="http://demo.openwfm.org/sj/">SJSU</a> | 
         <a target="_blank" href="https://caltopo.com/map.html#ll=38.81403,-120.01808&z=11&b=oo&a=modis_g">CalTopo</a>
     - txt: | 
         Comms: 
