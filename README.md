@@ -20,7 +20,7 @@ Static HTML - public website at [andyl.github.io/xmeyers](https://andyl.github.i
 
 ## Editing
 
-Content files are in `_data/*.yml`.
+Content files are in `data/*.yml`.
 
 ## Astral SSG
 
