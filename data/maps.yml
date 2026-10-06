@@ -40,8 +40,8 @@
       lbl: WolfCreek  
 
 - Echo Lake: 
-    - url: /static/maps/AnoraLakes.pdf
-      lbl: AnoraLakes  
+    - url: /static/maps/AngoraLakes.pdf
+      lbl: AngoraLakes  
     - url: /static/maps/AngoraPeak.pdf
       lbl: AngoraPeak  
     - url: /static/maps/EchoLakes.pdf
@@ -73,7 +73,7 @@
     - url: /static/maps/CraterLake.pdf
       lbl: CraterLake  
     - url: /static/maps/HawkinsPeak.pdf
-      lbl: HawkinsPea  
+      lbl: HawkinsPeak
     - url: /static/maps/PickettPeak.pdf
       lbl: PickettPeak  
     - url: /static/maps/StevensPeak.pdf
@@ -144,5 +144,5 @@
 - About the Maps: 
     - txt: These maps show Forest Service roads and hiking trails.
     - txt: Each map is a Geospatial PDF file, generated with <a href="https://caltopo.com">CalTopo</a>.</p>
-    - txt: Load the maps on your phone to navigate with <a href="https://www.avenzamaps.com">Avenza</a>.</p>
+    - txt: Load the maps on your phone to navigate with <a href="https://store.avenza.com">Avenza</a>.</p>
 
