@@ -1,0 +1,75 @@
+--- 
+- Weather: 
+    - url: https://www.google.com/search?q=weather+96150&oq=weather+96150&aqs=chrome.0.69i59j69i65.3019j0j4&sourceid=chrome&ie=UTF-8 
+      lbl: Google Weather 
+    - url: https://weather.com/weather/today/l/1adb8a728f658668a088d2c1e36af25d4044aeffac15e88f5e4aaf673357409f
+      lbl: Weather.com 
+    - url: https://forecast.weather.gov/MapClick.php?lon=-120.02357482910155&lat=38.849333913235455
+      lbl: NWS 
+  
+- Cams: 
+    - txt: <a href="cams/">Road Cams</a>
+    - url: https://www.sierraattahoe.com/live-cams/
+      lbl: SierraAtTahoe Webcams
+    - url: http://www.alertwildfire.org
+      lbl: Alert Wildfire
+      
+- Traffic: 
+    - url: https://www.google.com/maps/place/Meyers,+CA+96150/@38.8754622,-119.9998282,12.5z/data=!4m5!3m4!1s0x80998dd10cb46911:0x9a6aa0d06b4f0a29!8m2!3d38.8561066!4d-120.013057!5m1!1e1
+      lbl: Google Traffic Map 
+    - url: http://quickmap.dot.ca.gov/
+      lbl: Caltrans QuickMap
+    - url: https://oss.weathershare.org/?clat=38.85304&clng=-120.02144&zoom=13
+      lbl: Weathershare
+    - url: https://chainguy.com
+      lbl: Chainguy
+  
+- Fire: 
+    - url: https://inciweb.nwcg.gov
+      lbl: Inciweb
+    - url: https://app.watchduty.org/
+      lbl: Watch Duty
+    - url: https://eldoradocounty.maps.arcgis.com
+      lbl: ElDorado GIS 
+    - txt: | 
+        Maps: 
+        <a target="_blank" href="https://fire.airnow.gov/?lat=38.85&lng=-120.02&zoom=10">Airnow</a> |
+        <a target="_blank" href="https://www.windy.com/?38.764,-120.171,11">Windy</a> |
+        <a target="_blank" href="https://disasterresponse.maps.arcgis.com/apps/webappviewer/index.html?id=2ff1677111ae4018ac705fcce7c3312f">ESRI</a> | 
+        <a target="_blank" href="https://caltopo.com/map.html#ll=38.81403,-120.01808&z=11&b=oo&a=modis_g">CalTopo</a>
+    - txt: | 
+        Comms: 
+        <a target="_blank" href="https://m.broadcastify.com/listen/ctid/191">ElDorado</a> | 
+        <a target="_blank" href="https://m.broadcastify.com/listen/ctid/184">Alpine</a> 
+    - txt: |
+        Weather: 
+        <a target="_blank" href="https://www.youtube.com/channel/UCGjtp7iaeVmoVx-K7EGiYKA">HoltHanley</a> | 
+        <a target="_blank" href="https://weather.cod.edu/satrad/?parms=subregional-SanFran-natcolorfire-96-0-100-2&checked=map&colorbar=undefined">DuPage</a>
+  
+- Closures: 
+   - url: https://roads.dot.ca.gov/roadscell.php?roadnumber=89
+     lbl: Highway 89 (Truckee - SLT - Monitor Pass)
+   - url: https://roads.dot.ca.gov/roadscell.php?roadnumber=50
+     lbl: Highway 50 (Placerville - SLT - Carson City)
+   - url: https://roads.dot.ca.gov/roadscell.php?roadnumber=88
+     lbl: Highway 88 (K'wood - W'fords - Minden)
+   - url: https://roads.dot.ca.gov/roadscell.php?roadnumber=4
+     lbl: Highway 4 (M'ville - Ebbetts Pass)
+   - url: https://roads.dot.ca.gov/roadscell.php?roadnumber=395
+     lbl: Highway 395 (Sierra Eastside)
+   - url: https://roads.dot.ca.gov/roadscell.php?roadnumber=270
+     lbl: Highway 270 (Bodie)
+   - url: https://roads.dot.ca.gov/roadscell.php?roadnumber=108
+     lbl: Highway 108 (Sonora Pass)
+   - url: https://roads.dot.ca.gov/roadscell.php?roadnumber=120
+     lbl: Highway 120 (Tioga Pass)
+
+- About: 
+    - txt: Weather, Fire and Road conditions for Meyers CA 
+    - url: https://en.wikipedia.org/wiki/Meyers,_California 
+      lbl: About Meyers 
+    - url: https://github.com/andyl/xmeyers
+      lbl: Website Source
+    - url: https://github.com/andyl/issues 
+      lbl: Feedback & Requests 
+

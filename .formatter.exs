@@ -1,5 +1,17 @@
-# Used by "mix format"
 [
-  plugins: [Phoenix.LiveView.HTMLFormatter],
-  inputs: ["{mix,.formatter}.exs", "{config,lib,test}/**/*.{ex,exs}"]
+  volt: [
+    print_width: 100,
+    semi: true,
+    single_quote: false,
+    trailing_comma: :all,
+    arrow_parens: :always
+  ],
+  inputs: [
+    "{mix,.formatter}.exs",
+    "{config,lib,test}/**/*.{ex,exs}",
+    "assets/**/*.{js,ts,jsx,tsx}",
+    "{pages,layouts,components}/**/*.astral"
+  ],
+  plugins: [Astral.Formatter, Volt.Formatter],
+  excludes: ["assets/.astral/**/*"]
 ]

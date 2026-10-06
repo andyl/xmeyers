@@ -1,0 +1,5 @@
+<img
+  class="inline align-middle"
+  style="padding-bottom: 3px;"
+  src={Astral.url(@site, "/static/img/mountain-15-32.png")}
+/> Xmeyers

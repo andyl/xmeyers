@@ -1,0 +1,4 @@
+---
+assigns = assign(assigns, :maps, Xmeyers.data("maps"))
+---
+<.cardpage site={@site} datalist={@maps} color="green" />

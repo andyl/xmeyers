@@ -1,0 +1,5 @@
+<div class="inline text-xs pl-8">
+  <.navlink site={@site} label="Home" route={@route} ref="/" /> |
+  <.navlink site={@site} label="Cams" route={@route} ref="/cams/" /> |
+  <.navlink site={@site} label="Maps" route={@route} ref="/maps/" />
+</div>

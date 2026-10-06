@@ -1,0 +1,148 @@
+--- 
+- American River Canyon: 
+    - url: /static/maps/PyramidPeak.pdf
+      lbl: PyramidPeak  
+    - url: /static/maps/RalstonPeak.pdf
+      lbl: RalstonPeak
+
+- Bishop: 
+    - url: /static/maps/ButtermilkCamp.pdf
+      lbl: ButtermilkCamp 
+    - url: /static/maps/ButtermilkCircuit.pdf
+      lbl: ButtermilkCircuit
+
+- Blue Lakes: 
+    - url: /static/maps/CharityValley.pdf
+      lbl: CharityValley 
+    - url: /static/maps/MeadowLake.pdf
+      lbl: MeadowLake
+    - url: /static/maps/ReynoldsPeak.pdf
+      lbl: ReynoldsPeak
+
+- Carson Pass:  
+    - url: /static/maps/CarsonPass.pdf
+      lbl: CarsonPass  
+    - url: /static/maps/Forestdale.pdf
+      lbl: Forestdale  
+    - url: /static/maps/RedLakePeak.pdf
+      lbl: RedLakePeak  
+    - url: /static/maps/RoundLakeCarson.pdf
+      lbl: RoundLakeCarson  
+    - url: /static/maps/RoundTop.pdf
+      lbl: RoundTop  
+    - url: /static/maps/SchneiderCowCamp.pdf
+      lbl: SchneiderCowCamp  
+
+- Ebbetts Pass: 
+    - url: /static/maps/HighlandLakes.pdf
+      lbl: HighlandLakes  
+    - url: /static/maps/WolfCreek.pdf
+      lbl: WolfCreek  
+
+- Echo Lake: 
+    - url: /static/maps/AnoraLakes.pdf
+      lbl: AnoraLakes  
+    - url: /static/maps/AngoraPeak.pdf
+      lbl: AngoraPeak  
+    - url: /static/maps/EchoLakes.pdf
+      lbl: EchoLakes  
+    - url: /static/maps/EchoBowl.pdf
+      lbl: EchoBowl  
+    - url: /static/maps/FlagpolePeak.pdf
+      lbl: FlagpolePeak  
+
+- Echo Summit: 
+    - url: /static/maps/K2Sierra.pdf
+      lbl: K2Sierra  
+    - url: /static/maps/ScoutPeak.pdf
+      lbl: ScoutPeak  
+    - url: /static/maps/SierraRidge.pdf
+      lbl: SierraRidge  
+
+- Emerald Bay: 
+    - url: /static/maps/CascadeCreek.pdf
+      lbl: CascadeCreek  
+    - url: /static/maps/FloatingIslandTallac.pdf
+      lbl: FloatingIslandTallac  
+    - url: /static/maps/MountTallac.pdf
+      lbl: MountTallac  
+    - url: /static/maps/VikingsholmTrail.pdf
+      lbl: VikingsholmTrail  
+
+- Hope Valley: 
+    - url: /static/maps/CraterLake.pdf
+      lbl: CraterLake  
+    - url: /static/maps/HawkinsPeak.pdf
+      lbl: HawkinsPea  
+    - url: /static/maps/PickettPeak.pdf
+      lbl: PickettPeak  
+    - url: /static/maps/StevensPeak.pdf
+      lbl: StevensPeak  
+
+- Kyburz: 
+    - url: /static/maps/IceHouse.pdf
+      lbl: IceHouse
+    - url: /static/maps/LoonLake.pdf
+      lbl: LoonLake
+    - url: /static/maps/RobbsPeak.pdf
+      lbl: RobbsPeak
+    - url: /static/maps/SilverforkRoad.pdf
+      lbl: SilverforkRoad  
+    - url: /static/maps/WrightsLake.pdf
+      lbl: WrightsLake  
+
+- Lake Valley: 
+    - url: /static/maps/LakeValley.pdf
+      lbl: LakeValley  
+    - url: /static/maps/OsgoodSwamp.pdf
+      lbl: OsgoodSwamp  
+    - url: /static/maps/SaxonCreek.pdf
+      lbl: SaxonCreek  
+    - url: /static/maps/WashoeMeadows.pdf
+      lbl: WashoeMeadows  
+
+- Lee Vining: 
+    - url: /static/maps/LeeViningCanyon.pdf
+      lbl: LeeViningCanyon  
+    - url: /static/maps/LeeViningPowerplant.pdf
+      lbl: LeeViningPowerplant  
+
+- Luther Pass: 
+    - url: /static/maps/LutherSpires.pdf
+      lbl: LutherSpires  
+    - url: /static/maps/RoundLakeLuther.pdf
+      lbl: RoundLakeLuther  
+    - url: /static/maps/WaterhousePeak.pdf
+      lbl: WaterhousePeak  
+    - url: /static/maps/WillowCreek.pdf
+      lbl: WillowCreek  
+
+- Shuteye Ridge: 
+    - url: /static/maps/Shuteye6S42.pdf
+      lbl: Shuteye6S42  
+    - url: /static/maps/Shuteye8007.pdf
+      lbl: Shuteye8007  
+
+- Sonora Pass: 
+    - url: /static/maps/FS32062.pdf
+      lbl: FS32062  
+    - url: /static/maps/LeavittLake.pdf
+      lbl: LeavittLake  
+
+- Sweetwater Mountains: 
+    - url: /static/maps/BurchamFlat.pdf
+      lbl: BurchamFlat  
+    - url: /static/maps/LobdellLake.pdf
+      lbl: LobdellLake  
+    - url: /static/maps/JackassFlat.pdf
+      lbl: JackassFlat  
+
+- Twin Lakes: 
+    - url: /static/maps/BuckeyeHotSprings.pdf
+      lbl: BuckeyeHotSprings  
+
+- About the Maps: 
+    - txt: These maps show Forest Service roads and hiking trails.
+    - txt: Each map is a Geospatial PDF file, generated with <a href="https://caltopo.com">CalTopo</a>.</p>
+    - txt: Load the maps on your phone to navigate with <a href="https://www.avenzamaps.com">Avenza</a>.</p>
+

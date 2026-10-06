@@ -1,0 +1,20 @@
+---
+# Literal class names so Tailwind's scanner picks them up.
+header_bg =
+  case assigns.color do
+    "blue" -> "bg-blue-100"
+    "green" -> "bg-green-100"
+  end
+
+assigns = assign(assigns, :header_bg, header_bg)
+---
+<div class="relative border border-gray-300 rounded-lg shadow-sm">
+  <div class={"px-4 py-2 #{@header_bg} border-gray-200 rounded-t-lg font-medium"}>
+    {@title}
+  </div>
+  <div class="py-2 text-base lg:text-sm text-gray-600">
+    <%= for block <- @blocks do %>
+      <.showblock site={@site} block={block} />
+    <% end %>
+  </div>
+</div>

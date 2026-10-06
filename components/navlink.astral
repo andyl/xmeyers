@@ -1,0 +1,5 @@
+<%= if @ref != @route do %>
+  <a href={Astral.url(@site, @ref)}>{@label}</a>
+<% else %>
+  <bold>{@label}</bold>
+<% end %>

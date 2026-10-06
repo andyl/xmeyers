@@ -1,0 +1,5 @@
+<%= if "/" != @route do %>
+  <a href={Astral.url(@site, "/")} class="font-normal hover:text-blue" style="color: black;"><.logo site={@site} /></a>
+<% else %>
+  <.logo site={@site} />
+<% end %>

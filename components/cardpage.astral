@@ -1,0 +1,5 @@
+<div class="p-4 grid lg:grid-cols-3 sm:grid-cols-2 gap-4">
+  <%= for map <- @datalist, {title, blocks} <- Map.to_list(map) do %>
+    <.showcard site={@site} title={title} blocks={blocks} color={@color} />
+  <% end %>
+</div>

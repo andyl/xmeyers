@@ -5,34 +5,26 @@ defmodule Xmeyers.MixProject do
     [
       app: :xmeyers,
       version: "0.1.0",
-      elixir: "~> 1.17",
+      elixir: "~> 1.20",
       start_permanent: Mix.env() == :prod,
-      compilers: Mix.compilers(),
-      aliases: aliases(),
       deps: deps()
     ]
   end
 
+  # Run "mix help compile.app" to learn about applications.
   def application do
     [
       extra_applications: [:logger]
     ]
   end
 
+  # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:tableau, "~> 0.30"},
-      {:tailwind, "~> 0.4", runtime: Mix.env() == :dev},
-      {:phoenix_live_view, "~> 1.1"},
-      {:tidewave, "~> 0.5", only: :dev},
-    ]
-  end
-
-  defp aliases do
-    [
-      build: ["tableau.build", "tailwind default --minify", "deploy"],
-      serve: ["tableau.server"],
-      tide:  "run --no-halt -e 'Agent.start(fn -> Bandit.start_link(plug: Tidewave, port: 4000) end)'"
+      {:astral, path: Path.expand("~/src/Fork/astral")},
+      {:igniter, "~> 0.6", only: [:dev, :test]}
+      # {:dep_from_hexpm, "~> 0.3.0"},
+      # {:dep_from_git, git: "https://github.com/elixir-lang/my_dep.git", tag: "0.1.0"}
     ]
   end
 end
