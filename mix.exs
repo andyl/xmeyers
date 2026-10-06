@@ -21,7 +21,7 @@ defmodule Xmeyers.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:astral, path: Path.expand("~/src/Fork/astral")},
+      {:astral, github: "andyl/astral", branch: "base_path"},
       {:igniter, "~> 0.6", only: [:dev, :test]}
       # {:dep_from_hexpm, "~> 0.3.0"},
       # {:dep_from_git, git: "https://github.com/elixir-lang/my_dep.git", tag: "0.1.0"}
