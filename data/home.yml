@@ -72,4 +72,6 @@
       lbl: Website Source
     - url: https://github.com/andyl/issues 
       lbl: Feedback & Requests 
+    - url: https://github.com/elixir-volt/astral
+      lbl: Astral SSG
 
