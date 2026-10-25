@@ -30,6 +30,6 @@
       </div>
       <div class="flex mt-4 md:mt-0 md:ml-4"></div>
     </div>
-    {@content}
+    {render_slot(@inner_block)}
   </body>
 </html>

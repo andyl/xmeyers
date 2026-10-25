@@ -7,5 +7,5 @@ base_path("/xmeyers/")
 plugin(Astral.Plugin.LLMs, title: "Xmeyers")
 
 layouts do
-  default("default.astral")
+  default("default")
 end
